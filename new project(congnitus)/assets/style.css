@@ -317,4 +317,13 @@
     text-align: center;
     font-size: 12px;
 }
-
+.contact-fixed-button{
+    position: fixed;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+.contact-fixed-button a img{
+    width: 60px;
+    height: 60px;
+}

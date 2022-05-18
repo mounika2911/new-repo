@@ -22,6 +22,57 @@
 .navbar-item{
     padding-top: 15px;
 }
+.show-menu{
+    display: block;
+}
+.hide-menu{
+    display: none;
+}
+.aboutus-menu-items{
+    display: none;
+}
+.aboutus-menu-items ul{
+ padding-left: 0 !important;
+ padding-top: 20px;
+}
+.aboutus-menu-items ul li{
+    padding: 20px 0;
+}
+.solution-menu-items ul{
+    padding-left: 0;
+    padding-top: 20px;    
+}
+.solution-menu-items ul li{
+    padding: 20px 0;
+}
+.product-menu-items ul{
+    padding-left: 0;
+    padding-top: 20px;  
+}
+.product-menu-items ul li{
+    padding: 20px 0;
+}
+.services-menu-items ul{
+    padding-left: 0;
+    padding-top: 20px;  
+}
+.services-menu-items ul li{
+    padding: 20px 0;
+}
+.industries-menu-items ul{
+    padding-left: 0;
+    padding-top: 20px;  
+}
+.industries-menu-items ul li{
+    padding: 20px 0;
+}
+.resources-menu-items ul{
+    padding-left: 0;
+    padding-top: 20px;  
+}
+.resources-menu-items ul li{
+    padding: 20px 0;
+}
 .aboutus-nav-items{
     display: none;
     position: absolute;
@@ -63,7 +114,6 @@
 .nav-solutions:hover + .solution-nav-items{
     display: block;
 }
-
 /*------------*/
 .product-nav-items{
     display: none;

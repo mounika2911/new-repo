@@ -379,3 +379,16 @@
 .sm-menu-icon{
     font-size: 20px;
 }
+.contact-btn{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+}
+.contact-btn a{
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #80808040;
+    border-radius: 5px;
+}

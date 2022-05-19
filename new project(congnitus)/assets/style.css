@@ -424,3 +424,15 @@
     padding: 5px;
     border-radius: 10px;
 }
+/*partners page*/
+.partners_bg{
+    background-image: url('partners_bg.png');
+    background-repeat: no-repeat;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+.partners-gray-bg{
+    background-color: #eeeeee;
+}

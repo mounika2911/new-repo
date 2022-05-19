@@ -392,3 +392,23 @@
     background-color: #80808040;
     border-radius: 5px;
 }
+
+/* team-company */
+.VMC-bg{
+    background-image: url('VMC_bg.png');
+    background-repeat: no-repeat;
+}
+.overview-para{
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.border-heading{
+    font-weight: 700;
+    border-bottom: 3px solid black;
+}
+.card_bg{
+    background-image: url('half_logo.png');
+    background-repeat: no-repeat;
+    text-align: center;
+}

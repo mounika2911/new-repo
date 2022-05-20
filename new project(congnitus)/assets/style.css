@@ -504,3 +504,53 @@ body{
 .under-image{
     
 } */
+/* lifecycle page*/
+.gallop-project-banner{
+    background-image: url('lifecycle-banner.png');
+    background-repeat: no-repeat;
+}
+.bg-half-logo{
+    background-image: url('bg_half-logo.png');
+    background-repeat: no-repeat;
+}
+/*sap page*/
+.sap_bg{
+    background-image: url('bg_sap.png');
+    background-repeat: no-repeat;
+}
+.dashed-text{
+  border-bottom: 2px dashed black;  
+  
+}
+.industires-images{
+   width: 25%;
+}
+.network-sap{
+    display: flex;
+    justify-content: center;
+}
+.supplier-sap{
+    display: flex;
+    justify-content: end; 
+}
+.sap-images{
+    position: relative;
+    
+}
+.sap-images img:first-child {
+    margin-top: 0%;
+    margin-left: 50px;
+}
+.sap-images img:nth-child(2) {
+    margin-top: 130px;
+    margin-left: 10;
+}
+.sap-images img:last-child {
+    margin-top: 278px;
+}
+.sap-arrow img{
+    transform: rotateX(180deg);
+}
+.sap-arrow-image img{
+    width: 20%;
+}

@@ -554,3 +554,60 @@ body{
 .sap-arrow-image img{
     width: 20%;
 }
+.statergic_bg{
+    background-image: url('bg_statergic.png');
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+.more-info{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    margin: 10px 0;
+    border-radius: 25px;
+    background: linear-gradient(to right, #be0711 50%, black 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    margin-bottom: 30px;
+}
+
+.more-info:hover{
+    text-decoration: none;
+    color: white;
+    background-position: left bottom;
+}
+
+.icon1_data{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+    
+}
+.box-style{
+    border: 1px solid black;
+    background: linear-gradient(90deg, rgba(57, 57, 57, 1) 0%, rgba(83, 83, 83, 1) 100%);
+    color: white;
+}
+.box-style ul{
+  list-style: none;
+}
+.arrows {
+    width: 60px;
+    height: 72px;
+}
+.arrows path.a1 {
+    animation-delay: -1s;
+    -webkit-animation-delay: -1s;
+}
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+.arrows path {
+    stroke: #BA0711;
+    fill: transparent;
+    stroke-width: 1px;
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite;
+}

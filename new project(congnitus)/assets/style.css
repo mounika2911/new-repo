@@ -2,10 +2,31 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    margin-top: 75px;
+}
 .container{
     max-width: 1200px;
 }
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .progress-container {
+    background-color: rgba(150, 150, 150, 0.6);
+    height: 10px;
+    width: 100%;
+  }
+  
+  .progress-bar {
+    background-color: #BE0711;
+    height: 10px;
+    width: 0%;
+  }
+  
 
 .nav-items{
     list-style: none;
@@ -441,3 +462,45 @@
     box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
 
 }
+/* careers page */
+.careers-bg{
+    background-image: url('careers_bg.png');
+}
+/*galoop-dclm page*/
+.gallop-banner{
+    background-image: url('gallop_banner.png');
+    background-repeat: no-repeat;
+}
+.btn-watch-video{
+    text-decoration: none;
+    background-color: #d3d3d3;
+    color: black;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%)
+}
+.solution-sap img{
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sap-icon{
+    display: flex;
+    justify-content: center;
+}
+.bg-graphic{
+    background-image: url('bg_graphic.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.circle-image{
+    max-width: 100%;
+    height: auto;
+}
+
+/* .over-image{
+    position: absolute;
+    z-index: 1;
+}
+.under-image{
+    
+} */

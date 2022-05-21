@@ -611,3 +611,21 @@ svg {
     animation: arrow 2s infinite;
     -webkit-animation: arrow 2s infinite;
 }
+/*service page*/
+.service_bg{
+    background-image: url('service_bg.png');
+    background-repeat: no-repeat;
+}
+.btn-watch-video:hover{
+    text-decoration: none;
+    color: black;
+}
+.service_two_bg{
+    background-image: url('bg_graphic_service.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bg_half_black{
+    background-image: url('bg_half_black.png');
+    background-repeat: no-repeat;
+}

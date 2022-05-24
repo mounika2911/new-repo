@@ -637,3 +637,41 @@ svg {
 .service_bg2{
     background-image: url('service_bg2.png');
 }
+.case-study-head{
+    color: #ba0711;
+}
+.professional-banner{
+    background-image: url('header-professional.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.professional-content img{
+    height: 25vh;
+}
+.professional-content {
+    text-align: center;
+}
+.outcome-based{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.arrow-size{
+  width: auto;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.img-rpi{
+    width : auto;
+    height: 50px;
+}
+.bg-pi{
+    background-image: url('bg-pi.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.traditional-bg{
+    background-color: #f9f9f9;
+}

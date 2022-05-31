@@ -696,3 +696,27 @@ svg {
     padding: 10px 0;
     font-weight: bold;
 }
+.cpg-banner{
+    background-image: url('consumer-product-goods-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+.bg-products{
+    background-color:#332d2f;
+}
+.box-row{
+    border-bottom: 2px dashed #b68383;
+}
+.box-column{
+    border-right: 2px dashed #b68383;
+}
+.row-head{
+    font-size: 0.8em;
+}
+.row-para{
+    font-size: 0.55em;
+}
+.box-content{
+    
+}

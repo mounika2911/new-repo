@@ -727,3 +727,7 @@ svg {
 .box-space{
     padding: 5px 10px;
 }
+.e-commerce-banner{
+    background-image: url("bg_header_commerce.png");
+    background-repeat: no-repeat;
+}

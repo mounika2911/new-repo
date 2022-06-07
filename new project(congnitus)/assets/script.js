@@ -87,4 +87,3 @@ resourcesMenu.addEventListener('click', () =>{
         resourcesMenuItems.className = 'hide-menu'
     }
 })
-

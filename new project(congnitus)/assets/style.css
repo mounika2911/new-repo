@@ -13,6 +13,7 @@ body{
     top: 0;
     width: 100%;
     z-index: 1;
+    background-color: white;
   }
   
   .progress-container {
@@ -45,6 +46,7 @@ body{
 }
 .show-menu{
     display: block;
+    z-index: -1;
 }
 .hide-menu{
     display: none;
@@ -106,32 +108,7 @@ body{
 .aboutus-nav-items li{
     padding-top: 20px;
 }
-.nav-aboutus:hover + .aboutus-nav-items{
-    display: block;
-}
-.solution-nav-items{
-    display: none;
-    position: absolute;
-    padding-top: 30px;
-    background-color: white;
-    z-index: 1;
-    left: 0;
-}
-.solution-nav-items ul{
-    list-style: none;
-    text-decoration: none;
-    padding-left: 0;;
-}
-.solution-nav-items li{
-    padding-top: 20px;
-}
-.solution-nav-items ul li a{
-    font-size: 14px;
-}
-.solution-nav-items h5{
-    font-weight: bold;
-}
-.nav-solutions:hover + .solution-nav-items{
+.nav-aboutus:hover .aboutus-nav-items{
     display: block;
 }
 /*------------*/
@@ -141,7 +118,6 @@ body{
     padding-top: 30px;
     background-color: white;
     z-index: 1;
-    left: 0;
 }
 .product-nav-items ul{
     list-style: none;
@@ -157,7 +133,7 @@ body{
 .product-nav-items h5{
     font-weight: bold;
 }
-.nav-product:hover + .product-nav-items{
+.nav-product:hover .product-nav-items{
     display: block;
 }
 .services-nav-items{
@@ -173,7 +149,7 @@ body{
 .services-nav-items li{
     padding-top: 20px;
 }
-.nav-services:hover + .services-nav-items{
+.nav-services:hover .services-nav-items{
     display: block;
 }
 /**/
@@ -183,8 +159,11 @@ body{
     padding-top: 30px;
     background-color: white;
     z-index: 1;
+    width: 90%;
     left: 0;
     right: 0;
+    margin: auto;
+    margin-top: 10px;
 }
 .industries-nav-items ul{
     list-style: none;
@@ -197,23 +176,7 @@ body{
 .industries-nav-items ul li a{
     font-size: 14px;
 }
-.nav-industries:hover + .industries-nav-items{
-    display: block;
-}
-.resources-nav-items{
-    display: none;
-    position: absolute;
-    padding-top: 30px;
-    background-color: white;
-    z-index: 1;
-}
-.resources-nav-items ul{
-    padding: 17px;
-}
-.resources-nav-items li{
-    padding-top: 20px;
-}
-.nav-resources:hover + .resources-nav-items{
+.nav-industries:hover .industries-nav-items{
     display: block;
 }
 .slide-images{
@@ -730,4 +693,23 @@ svg {
 .e-commerce-banner{
     background-image: url("bg_header_commerce.png");
     background-repeat: no-repeat;
+}
+.life-science-banner{
+    background-image: url('bg_life_sciences.png');
+    background-repeat: no-repeat;
+}
+.bg_howhelp{
+    background-image: url('bg_howhelp.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gallop-contact-btn-two{
+    background-color: #e1e1e126;
+    padding: 3px 20px;
+    border: none;
+    border-radius: 20px;
+   max-width: 64%;
+   box-shadow: inset 0 0 0 0 black;
+
 }

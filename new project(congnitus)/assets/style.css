@@ -724,3 +724,19 @@ svg {
 .bg-pi-border{
     border-bottom: 2px solid white;
 }
+.sap-integrated{
+    background-color: #ba0711;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.dynamic-integrated{
+    background-color: #eee;
+    font-weight: bold;
+    text-align: center;
+   width: 70%;
+}
+.oil-gas-banner{
+    background-image: url('bg_oil_gas.jpg');
+    background-repeat: no-repeat;
+}

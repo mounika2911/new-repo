@@ -1,3 +1,21 @@
+// input-error
+const inputErrors = document.querySelectorAll('.input-error')
+
+const requiredEmptyField = () => {
+    "use strict";
+    return function () {  
+      if (this.value == "" && !(this.nextSibling.nodeType == 1) ) {
+        this.insertAdjacentHTML("afterend", '<p id = "error-text" enable>Please complete this required field.</p>');
+      } else if (!this.value == "" && this.nextSibling.nodeType == 1) {
+        document.getElementById("error-text").remove();
+      }
+    };
+}
+
+inputErrors.forEach(inputError => {
+    inputError.addEventListener("blur", requiredEmptyField());
+})
+
 function progressBarScroll() {
     let winScroll = document.body.scrollTop || document.documentElement.scrollTop,
         height = document.documentElement.scrollHeight - document.documentElement.clientHeight,
@@ -87,3 +105,5 @@ resourcesMenu.addEventListener('click', () =>{
         resourcesMenuItems.className = 'hide-menu'
     }
 })
+
+

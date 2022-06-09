@@ -904,3 +904,30 @@ svg {
     position: relative;
     z-index: 9;
 }
+
+.contact-form{
+    background-image: url('half_logo.png');
+    background-attachment: fixed;
+    background-position: center left;
+    background-size: 30%;
+    background-repeat: no-repeat;
+}
+
+.required:after {
+    content:" *";
+    color: red;
+  }
+.input-styles{
+    width: 100%;
+    border-radius: 20px;
+    padding: 5px 0;
+    border: 1px solid #cbd6e2;
+    background-color: #f5f8fa;
+}
+.input-styles:focus{
+    border-color: rgba(82,168,236,.8);
+    outline: none;
+}
+#error-text{
+    color: #ba0711;
+}

@@ -744,3 +744,7 @@ svg {
     background-image: url('bg_retail.png');
     background-repeat: no-repeat;
 }
+.telecom-banner{
+    background-image: url('bg_telecom.jpg');
+    background-repeat: no-repeat;
+}

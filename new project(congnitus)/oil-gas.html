@@ -1,658 +1,941 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Cognitus | Home</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link href="./assets/style.css" rel="stylesheet">
-        <!-- animation -->
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-    </head>
-    <body>
-        <!-- header -->
-        <div class="contact-fixed-button">
-            <a href="" >
-                <img src="./assets/btn-contact.svg" alt="">
-            </a>           
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Cognitus | Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="./assets/style.css" rel="stylesheet">
+    <!-- animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+</head>
+
+<body>
+    <!-- header -->
+    <div class="contact-fixed-button">
+        <a href="">
+            <img src="./assets/btn-contact.svg" alt="">
+        </a>
+    </div>
+    <!-- mobile menu -->
+    <div class="mobile-menu d-sm-block d-md-none">
+        <div class="icon-logo d-flex justify-content-between px-2 py-2">
+            <div class="sm-menu-icon px-2 py-2" id="mobile-menu">
+
+                <i class="fa-solid fa-ellipsis-vertical" style="color: black;font-size:30px"></i>
+
+            </div>
+            <div class="sm-logo">
+                <a href="index.html"><img src="./assets/logo.png" alt="logo" /></a>
+            </div>
         </div>
-        <!-- mobile menu -->
-        <div class="mobile-menu d-sm-block d-md-none">
-            <div class="icon-logo d-flex justify-content-between px-2 py-2">
-                <div class="sm-menu-icon px-2 py-2" id="mobile-menu">
-                    
-                        <i class="fa-solid fa-ellipsis-vertical" style="color: black;font-size:30px"></i>
-                    
+        <div class="nav-menu-items hide-menu" id="menu-items">
+            <ul class="nav-items">
+                <li class="navbar-item">
+                    <div class="nav-aboutus d-flex justify-content-between" id="aboutus-menu">
+                        <p>About Us</p>
+                        <i class="fa-solid fa-angle-down pr-3"></i>
+                    </div>
+                    <div class="aboutus-menu-items hide-menu" id="aboutus-menu-items">
+                        <ul style="list-style:none; padding-left: 0;">
+                            <li>
+                                <a href="team-company-history.html">Our Company, Team & History</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navbar-item d-none">
+                    <div class="nav-solutions d-flex justify-content-between" id="solution-menu">
+                    </div>
+                </li>
+                <li class="navbar-item">
+                    <div class="nav-product d-flex justify-content-between" id="product-menu">
+                        <p>Products</p>
+                        <i class="fa-solid fa-angle-down pr-3"></i>
+                    </div>
+                    <div class="product-menu-items hide-menu" id="product-menu-items">
+                        <div class="pt-2">
+                            <div>
+                                <h5>Spend Management</h5>
+                                <ul style="list-style:none;">
+                                    <li>
+                                        <a href="SAP-ariba.html">SAP Ariba</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar-item">
+                    <div class="nav-services d-flex justify-content-between" id="services-menu">
+                        <p>Services</p>
+                        <i class="fa-solid fa-angle-down pr-3"></i>
+                    </div>
+                    <div class="services-menu-items hide-menu" id="services-menu-items">
+                        <ul style="list-style:none;padding-left: 0;">
+                            <li>
+                                <a href="statergic-advisory.html"> Strategic Advisory</a>
+                            </li>
+                            <li>
+                                <a href="support-services.html"> Support Services</a>
+                            </li>
+                            <li>
+                                <a href="professional-services.html"> professional Services</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navbar-item ">
+                    <div class="nav-industries d-flex justify-content-between" id="industries-menu">
+                        <p>Industries</p>
+                        <i class="fa-solid fa-angle-down pr-3"></i>
+                    </div>
+                    <div class="industries-menu-items hide-menu" id="industries-menu-items">
+                        <div class="">
+                            <div>
+                                <ul style="list-style:none;padding-left: 0;">
+                                    <li>
+                                        <a href="aerospace-defence.html"> Aerospace & Defense</a>
+                                    </li>
+                                    <li>
+                                        <a href="automotive.html"> Automotive</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul style="list-style:none;padding-left: 0;">
+                                    <li>
+                                        <a href="cpg.html">CPG</a>
+                                    </li>
+                                    <li>
+                                        <a href="e-commerce.html"> E-Commerce</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul style="list-style:none;padding-left: 0;">
+                                    <li>
+                                        <a href="life-sciences.html">Life Sciences</a>
+                                    </li>
+                                    <li>
+                                        <a href="manufacturing.html"> Manufacturing</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul style="list-style:none;padding-left: 0;">
+                                    <li>
+                                        <a href="oil-gas.html"> Oil & Gas</a>
+                                    </li>
+                                    <li>
+                                        <a href="professional-services.html">Professional Services</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul style="list-style:none;padding-left: 0;">
+                                    <li>
+                                        <a href="retail.html"> Retail</a>
+                                    </li>
+                                    <li>
+                                        <a href="telecom.html">Telecom</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- main menu -->
+    <div class="header">
+        <div class="container">
+            <div class="row fixed top-0 z-1">
+                <div class="col-md-12 bg-white">
+                    <div class="row">
+                        <div class="col-md-12 d-none d-sm-none d-md-block">
+                            <ul class="nav-items d-flex">
+                                <li class="pt-2">
+                                    <a href="index.html"><img src="./assets/logo.png" class="logo-position"
+                                            alt="logo" /></a>
+                                </li>
+                                <li class=" navbar-item">
+                                    <div class="nav-aboutus">
+                                        <a href="">About Us</a>
+                                        <div class="aboutus-nav-items">
+                                            <ul style="list-style:none;">
+                                                <li>
+                                                    <a href="team-company-history.html">Our Company, Team & History</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="navbar-item">
+                                    <div class="nav-product">
+                                        <a href="">Products</a>
+                                        <div class="product-nav-items py-4 px-4">
+                                            <div class="d-flex pt-2">
+                                                <div>
+                                                    <h5>Spend Management</h5>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="SAP-ariba.html">SAP Ariba</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="navbar-item">
+                                    <div class="nav-services">
+                                        <a href="">Services</a>
+                                        <div class="services-nav-items">
+                                            <ul style="list-style:none;">
+                                                <li>
+                                                    <a href="statergic-advisory.html"> Strategic Advisory</a>
+                                                </li>
+                                                <li>
+                                                    <a href="support-services.html"> Support Services</a>
+                                                </li>
+                                                <li>
+                                                    <a href="professional-services.html"> professional Services</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="navbar-item ">
+                                    <div class="nav-industries">
+                                        <a href="">Industries</a>
+                                        <div class="industries-nav-items py-4 px-4">
+                                            <div class="d-flex justify-content-around">
+                                                <div>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="aerospace-defence.html"> Aerospace & Defense</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="automotive.html"> Automotive</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="cpg.html">CPG</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="e-commerce.html"> E-Commerce</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="life-sciences.html">Life Sciences</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="manufacturing.html"> Manufacturing</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="oil-gas.html"> Oil & Gas</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="professional-services.html">Professional
+                                                                Services</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="retail.html"> Retail</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="telecom.html">Telecom</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="sm-logo">
-                    <a href="index.html"><img src="./assets/logo.png" alt="logo" /></a>
-                </div> 
-            </div>       
-            <div class="nav-menu-items hide-menu" id = "menu-items">
-                <ul class="nav-items">
-                    <li class="navbar-item">
-                        <div class="nav-aboutus d-flex justify-content-between" id="aboutus-menu">
-                            <p >About Us</p>
-                            <i class="fa-solid fa-angle-down pr-3"></i>
-                        </div>
-                        <div class="aboutus-menu-items hide-menu" id = "aboutus-menu-items">
-                            <ul style="list-style:none; padding-left: 0;">
-                                <li>
-                                    <a href="team-company-history.html">Our Company, Team & History</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navbar-item d-none">
-                        <div class="nav-solutions d-flex justify-content-between" id="solution-menu">
-                        </div>                                             
-                    </li>
-                    <li class="navbar-item">
-                        <div class="nav-product d-flex justify-content-between" id="product-menu">
-                            <p>Products</p>
-                            <i class="fa-solid fa-angle-down pr-3"></i>
-                        </div>                                                         
-                        <div class="product-menu-items hide-menu" id = "product-menu-items">
-                            <div class="pt-2">
-                                <div >
-                                    <h5>Spend Management</h5>
-                                    <ul style="list-style:none;">                               
-                                        <li>
-                                            <a href="SAP-ariba.html">SAP Ariba</a>
-                                        </li>
-                                    </ul> 
+            </div>
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- banner -->
+    <div class="oil-gas-banner py-5 d-flex">
+        <img src="./assets/triangle.svg" alt="" style="width: 5%;">
+        <div class="pl-4 py-4">
+            <h1 class="text-white fw-bold pl-1">OIL AND GAS</h1>
+        </div>
+    </div>
+    <div class="contianer">
+        <div class="pt-3 px-5">
+            <h1 class="fw-bold">WHY YOU NEED THE INTELLIGENT ENTERPRISE</h1>
+            <p class="pt-3">
+                Don’t wait-- Right now is the time to get ahead competition and leverage technology to increase and
+                revolutionize your businesses core capabilities. Simplify the standardize processes to enable innovation
+                in oil and gas with intelligent cloud services.
+            </p>
+        </div>
+        <div class="pt-3 px-5">
+            <h1 class="fw-bold">WHAT COGNITUS DOES FOR YOU</h1>
+            <p class="pt-3">
+                The switch to SAP Intelligent Enterprise may seem overwhelming and challenging, as it might encompass a
+                change never before experienced by your company. Cognitus solely serves to alleviate this issue and
+                guide you along the entire value chain, from upstream, midstream and downstream.
+            </p>
+            <p class="pt-3">
+                We will assess your company’s specific needs and requirements, build a strategy that adheres to your
+                specifications and industry trends and provide implementation, all while training your stakeholders to
+                get the most value from SAP.
+            </p>
+        </div>
+        <div class="pt-3 px-5">
+            <h1 class="fw-bold">ROADMAP FOR OIL AND GAS</h1>
+            <p class="pt-3">
+                The Intelligent Enterprise takes a forward-thinking approach to help you deliver safe, reliable and
+                sustainable energy. Explore our oil and gas road map to learn about current industry solutions, planned
+                innovations and future direction.
+            </p>
+        </div>
+    </div>
+    <div class="row-five">
+        <div class="container">
+            <div class="row pt-5 pb-2 px-5 d-flex">
+                <div class="col-md-2">
+                    <img src="./assets/icon0_oil_gas.svg" alt="" style="width:90%;">
+                </div>
+                <div class="col-md-9 d-flex flex-column justify-content-center">
+                    <h1 class="fw-bold">CURRENT RELEASE HIGHLIGHTS</h1>
+                </div>
+            </div>
+            <div class="pb-2 px-5">
+                <p>
+                    . Project management suite that supports project roles for long- to short-term planning <br>
+                    . Integrated revenue accounting and production operations, determining well-level profitability <br>
+                    . Visual and mobile user interfaces, providing real-time visibility into supply chains <br>
+                    . Intelligent asset management with digital twin technology <br>
+                    . Predictive analytics capabilities for operational excellence
+                </p>
+            </div>
+            <div class="row pt-5 pb-2 px-5 d-flex">
+                <div class="col-md-2">
+                    <img src="./assets/icon-1_oil_gas.svg" alt="" style="width:90%;">
+                </div>
+                <div class="col-md-9 d-flex flex-column justify-content-center">
+                    <h1 class="fw-bold">UPCOMING INNOVATIONS</h1>
+                </div>
+            </div>
+            <div class="pb-2 px-5">
+                <p>
+                    . Public cloud project management solution with role-based user interfaces <br>
+                    . Production and revenue accounting with upstream hydrocarbon accounting and management <br>
+                    . Visual user interface with interactive functionality for supply chain management <br>
+                    . Asset monitoring, based on granular data from sensors and maintenance history
+                </p>
+            </div>
+
+            <div class="row pt-5 pb-2 px-5 d-flex">
+                <div class="col-md-2">
+                    <img src="./assets/icon-2_oil_gas.svg" alt="" style="width:90%;">
+                </div>
+                <div class="col-md-9 d-flex flex-column justify-content-center">
+                    <h1 class="fw-bold">WHAT DOES THE FUTURE LOOK LIKE?</h1>
+                </div>
+            </div>
+            <div class="pb-2 px-5">
+                <p>
+                    . Use smart algorithms to assess project status and contractor performance and reliability <br>
+                    . Develop flexible structures to identify required elements for contracts, costs, and revenue <br>
+                    . Offer a platform enabling collaboration, transparency, and security in hydrocarbon movements <br>
+                    . Deliver comprehensive features that support end-to-end processes for asset management
+                </p>
+            </div>
+            <div class="row py-4 px-4 text-center justify-content-center">
+                <div class="col-md-2">
+                    <img src="./assets/n1_oil_gas.svg" alt="">
+                    <p class="pt-2">
+                        Of oil and gas companies will leverage real-time equipment and asset performance data to
+                        self-diagnose issues by 2021
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <img src="./assets/n2_oil_gas.svg" alt="">
+                    <p class="pt-2">Of oil and gas companies will have created new ecosystems by implementing AI and
+                        blockchain by 2022</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="./assets/n3_oil_gas.svg" alt="">
+                    <p class="pt-2">Of new mobile apps use voice as a primary interface</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="./assets/n4_oil_gas.svg" alt="">
+                    <p class="pt-2">Of manufacturers are predicted to use network related products and set digital twins
+                        into digital twins ecosystems for a systems-level view of their business by 2024</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="./assets/n5_oil_gas.svg" alt="">
+                    <p class="pt-2">Of manufacturers are predicted to network related products and set digital twins
+                        into digital twins ecosystems for a systems-level view of their business by 2024</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="py-5 px-5">
+            <h1 class="fw-bold">WHAT IS OUR STRATEGY FOR SUCCESS?</h1>
+            <p class="pt-3">
+                Continued investment and ingenuity are expanding the energy network infrastructure, Digital leaders are
+                delivering operationally ready assets, often on a performance or revenue – share basis, by using the
+                power of supercomputing for more accurate exploration and effective asset design and construction.
+            </p>
+        </div>
+        <div class="row pt-5 pb-2 px-5 d-flex">
+            <div class="col-md-2">
+                <img src="./assets/icon1_oil_gas.svg" alt="" style="width:90%;">
+            </div>
+            <div class="col-md-9 d-flex flex-column justify-content-center">
+                <h1 class="fw-bold">EXTEND BEYOND THE BARREL</h1>
+            </div>
+        </div>
+        <div class="px-5">
+            <p class="pt-2">
+                Personalization is dominating all industries including oil and gas. By 2025, personalized offerings will
+                generate a $95B industry.
+            </p>
+            <ul class="pt-2">
+                <li>Create services that optimize transportation, heating & cooling and power based upon real consumer
+                    insights,</li>
+                <li>Breakthrough traditional and outdated services to create sustainable and convenient energy outcomes
+                    that focus on transportation, climate control and powered devices</li>
+            </ul>
+        </div>
+        <div class="row pt-5 pb-2 px-5 d-flex">
+            <div class="col-md-2">
+                <img src="./assets/icon2_oil_gas.svg" alt="" style="width:90%;">
+            </div>
+            <div class="col-md-9 d-flex flex-column justify-content-center">
+                <h1 class="fw-bold">DIGITALIZE PRODUCT AND DELIVERY</h1>
+            </div>
+        </div>
+        <div class="px-5">
+            <p class="pt-2">
+                To be a big player in the future, companies will need to be superior in gaining insights from their
+                operations, products and services. Automation by AI and machine learning will be the foundation of such
+                processes, supporting a digital hydrocarbon supply chain.
+            </p>
+            <ul class="pt-2">
+                <li>Manage physical deliveries without owning or operating inventory or hiring</li>
+                <li>Efficient asset maintenance to lower costs, risks and optimize performance</li>
+            </ul>
+        </div>
+        <div class="row pt-5 pb-2 px-5 d-flex">
+            <div class="col-md-2">
+                <img src="./assets/icon3_oil_gas.svg" alt="" style="width:90%;">
+            </div>
+            <div class="col-md-9 d-flex flex-column justify-content-center">
+                <h1 class="fw-bold">COMPETE AS AN ECOSYSTEM</h1>
+            </div>
+        </div>
+        <div class="px-5">
+            <p class="pt-2">
+                Manage safety, cost and agility with AI and continuously improve and innovate your designs and
+                operations based upon performance feedback to get a competitive advantage. The future of this industry
+                will rely on seamless data sharing with all ecosystem partners so that collaborative efforts can take
+                place.
+            </p>
+            <ul class="pt-2">
+                <li>Increase profits and revenue with real-time data and optimized cloud business processes</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row py-5 px-5">
+            <div class="col">
+                <p>SUPPLIER</p>
+                <img src="./assets/icon15_oil_gas.svg" alt="" class="w-50">
+                <p>SUPPLY</p>
+            </div>
+            <div class="col">
+                <img src="./assets/icon16_oil_gas.svg" alt="" class="w-50 pt-2">
+                <p>PRODUCTION</p>
+            </div>
+            <div class="col">
+                <img src="./assets/icon17_oil_gas.svg" alt="" class="w-75 pt-2">
+                <p>PRIMARY DISTRIBUTION</p>
+            </div>
+            <div class="col">
+                <img src="./assets/icon18_oil_gas.svg" alt="" class="w-50">
+                <p>REFINING</p>
+            </div>
+            <div class="col">
+                <img src="./assets/icon16_oil_gas_2.svg" alt="" class="w-50">
+                <p>MARKETING AND SALES</p>
+            </div>
+            <div class="col">
+                <img src="./assets/icon19_oil_gas.svg" alt="" class="w-75 pt-2">
+                <p>SECONDARY DISTRIBUTION</p>
+            </div>
+            <div class="col">
+                <img src="./assets/icon20_oil_gas.svg" alt="" class="w-50">
+                <p>CONVENIENCE
+                    STORE</p>
+            </div>
+            <div class="col">
+                <p>CUSTOMER</p>
+                <img src="./assets/icon21_oil_gas.svg" alt="" class="w-50">
+                <p>DEMAND</p>
+            </div>
+        </div>
+        <div class="row py-2 px-4">
+            <div class="col-md-2">
+                <div>
+                    <p class="fw-bold">
+                        1. Become stakeholder centric
+                    </p>
+                    <hr>
+                    <p class="py-2">
+                        With XM, oil and gas companies can trigger landowner or venture partner feedback to better
+                        understand impressions and sentiments before and after any new or revised royalty or venture
+                        agreements.
+                    </p>
+                </div>
+                <div>
+                    <p class="fw-bold">
+                        2. Optimized well lifecycle
+                    </p>
+                    <hr>
+                    <div class="py-2">
+                        With XM, oil and gas companies can trigger employee feedback to hear directly from them and
+                        contractors to better understand what hazards they encounter and what can be done to avoid such
+                        hazards.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div>
+                    <p class="fw-bold">
+                        3. Become stakeholder centric
+                    </p>
+                    <hr>
+                    <p class="py-2">
+                        With XM, HR managers can capture in the moment feedback from current and prospective employees
+                        to better understand specifically why they are not attracting and retaining talent.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div>
+                    <p class="fw-bold">
+                        4. Achieve exceptional maintenance service experience and technician engagement
+                    </p>
+                    <hr>
+                    <p class="py-2">
+                        With XM, OEM services managers can trigger partners and technician feedback to understand the
+                        shortages and leftovers of a toolbox and why service is underperforming.
+                    </p>
+                </div>
+                <div>
+                    <p class="fw-bold">
+                        5. Optimize safety for workers
+                    </p>
+                    <hr>
+                    <p class="py-2">
+                        With XM, construction companies can trigger employee feedback to hear directly from them to
+                        better understand what hazard they encounter and what can be done to avoid such hazards.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div>
+                    <p class="fw-bold">
+                        6. Improve supplier collaboration: treat your carriers like customers
+                    </p>
+                    <hr>
+                    <p class="py-2">
+                        With XM, logistics managers can capture in-the-moment supplier feedback to better understand
+                        supplier emotions and sentiments and, in this case, why service is poor.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div>
+                    <p class="fw-bold">
+                        7. Achieve top customer satisfaction with aviation fuel delivery excellence
+                    </p>
+                    <hr>
+                    <p class="py-2">
+                        With XM, Jet-A1 fueling companies can capture feedback to better understand customer preferences
+                        and staff experiences on their core activities and interactions.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div>
+                    <p class="fw-bold">
+                        8. Differentiate through superior shopping experience at service station
+                    </p>
+                    <hr>
+                    <p class="py-2">
+                        Looking for the WHY service stations can capture regular or event-triggered customer feedback to
+                        better understand emotions and sentiments directed towards the shopping experience and, in this
+                        case, specifically why customers have changed their routines.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row py-2 px-4">
+            <p>
+                <b>Experience Management -</b>the ability to understand what is happening through operational data
+                (O-data): interlock it with experience data (X-data) from customers, suppliers, and employees; and act
+                on insight to improve organizational performance and deliver better outcomes.
+            </p>
+        </div>
+    </div>
+    <!-- carousel two -->
+    <div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12">
+                    <div id="my-carousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="img-area">
+                                            <img src="./assets/slick-slide-image-one.png" class="d-block" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="img-area">
+                                            <img src="./assets/slick-slide-image-two.png" class="d-block" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="img-area">
+                                            <img src="./assets/slick-slide-image-three.png" class="d-block" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="img-area">
+                                            <img src="./assets/slick-slide-image-four.png" class="d-block" alt="">
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>                                
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="img-area">
+                                            <img src="./assets/slick-slide-image-five.png" class="d-block" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="img-area">
+                                            <img src="./assets/slick-slide-image-six.png" class="d-block" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="img-area">
+                                            <img src="./assets/slick-slide-image-seven.png" class="d-block" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="img-area">
+                                            <img src="./assets/slick-slide-image-eight.png" class="d-block" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="img-area">
+                                            <img src="./assets/slick-slide-image-one.png" class="d-block" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="img-area">
+                                            <img src="./assets/slick-slide-image-two.png" class="d-block" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="img-area">
+                                            <img src="./assets/slick-slide-image-three.png" class="d-block" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="img-area">
+                                            <img src="./assets/slick-slide-image-four.png" class="d-block" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </li>
-                    <li class="navbar-item">
-                        <div class="nav-services d-flex justify-content-between" id="services-menu">
-                            <p>Services</p>
-                            <i class="fa-solid fa-angle-down pr-3"></i>
-                        </div>                            
-                        <div class="services-menu-items hide-menu" id = "services-menu-items">
-                            <ul style="list-style:none;padding-left: 0;">
-                                <li>
-                                    <a href="statergic-advisory.html"> Strategic Advisory</a>
-                                </li>
-                                <li>
-                                    <a href="support-services.html"> Support Services</a>
-                                </li>
-                                <li>
-                                    <a href="professional-services.html"> professional Services</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navbar-item ">
-                        <div class="nav-industries d-flex justify-content-between" id="industries-menu">
-                            <p>Industries</p>
-                            <i class="fa-solid fa-angle-down pr-3"></i>
-                        </div>                            
-                        <div class="industries-menu-items hide-menu" id = "industries-menu-items">
-                            <div class="">
-                                <div>
-                                    <ul style="list-style:none;padding-left: 0;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact us section -->
+    <div class="contactus-section d-flex flex-column justify-content-center">
+        <div class=" ">
+            <p class="contact-para">WE’RE READY <br>
+                WHEN YOU ARE.</p>
+            <div class="contact-btn">
+                <a href="#" class="tenth-row-contact" style="text-decoration:none">
+                    <img src="./assets/galoop-btn-logo.png" alt="" style="width:15px;height:15px;">&nbsp
+                    CONTACT US
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer-content">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="footer-main-heading">Our Services & Portfolio</h1>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="footer-nav-item">
+                                <h5 class="footer-sub-heading">About Us</h5>
+                                <div class="footer-about-us">
+                                    <ul class="footer-inner-links">
                                         <li>
-                                            <a href="aerospace-defence.html"> Aerospace & Defense</a>
+                                            <a href="team-company-history.html">Our Company, Team & History</a>
                                         </li>
                                         <li>
-                                            <a href="automotive.html"> Automotive</a>
+                                            <a href="">Our Partners</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Our Locations</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Careers</a>
                                         </li>
                                     </ul>
                                 </div>
-                                <div>
-                                    <ul style="list-style:none;padding-left: 0;">
+                            </div>
+                            <div class="footer-nav-iterm">
+                                <h5 class="footer-sub-heading">Products</h5>
+                                <div class="footer">
+                                    <ul class="footer-inner-links">
+                                        <li>
+                                            <a href="SAP-ariba.html">SAP Ariba</a>
+                                        </li>
+                                        <li>
+                                            <a href="">SAP Fieldglass</a>
+                                        </li>
+                                        <li>
+                                            <a href="">SAP Concur</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Microsoft Power BI</a>
+                                        </li>
+                                        <li>
+                                            <a href="">SAP SuccessFactors</a>
+                                        </li>
+                                        <li>
+                                            <a href="">LiveHire</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer-nav-iterm">
+                                <h5 class="footer-sub-heading">Finance & Accounting</h5>
+                                <div class="footer">
+                                    <ul class="footer-inner-links">
+                                        <li>
+                                            <a href="">Hamilton IFRS Compliance</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Hamilton IFRS 15 Compliance</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Hamilton ASC 842/ IFRS16 Compliance</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Pricefx</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="footer-nav-iterm">
+                                <h5 class="footer-sub-heading">Solutions</h5>
+                                <div class="footer">
+                                    <ul class="footer-inner-links">
+                                        <li>
+                                            <a href="">SAP Surround on Azure</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Gallop Pilot</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Gallop Deployment</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Virtual Digital Assistants</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer-nav-iterm">
+                                <h5 class="footer-sub-heading">IE Packaged Solutions</h5>
+                                <div class="footer">
+                                    <ul class="footer-inner-links">
+                                        <li>
+                                            <a href="">Gallop Project Lifecycle Management</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Gallop Price Intelligence, Rebates & Channel Management</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Gallop Talent Intelligence</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Gallop Digital Supplier Network</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Gallop Life Sciences</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Gallop Defence Contract Lifecycle Management</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Gallop CPQ Dealer Automative Promotions</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="footer-nav-iterm">
+                                <h5 class="footer-sub-heading">Services</h5>
+                                <div class="footer">
+                                    <ul class="footer-inner-links">
+                                        <li>
+                                            <a href="statergic-advisory.html">Strategic Advisory</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Aupport Services</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer-nav-iterm">
+                                <h5 class="footer-sub-heading">Supply Chain</h5>
+                                <div class="footer">
+                                    <ul class="footer-inner-links">
+                                        <li>
+                                            <a href="">WM/ EWM</a>
+                                        </li>
+                                        <li>
+                                            <a href="">IBP</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer-nav-iterm">
+                                <h5 class="footer-sub-heading">Resources</h5>
+                                <div class="footer">
+                                    <ul class="footer-inner-links">
+                                        <li>
+                                            <a href="">On Demadn Content, Videos Articles, Blogs, White Papers</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Brochures</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Success Stories/ Testimonials/Case Studies</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="footer-nav-iterm">
+                                <h5 class="footer-sub-heading">Industries</h5>
+                                <div class="footer">
+                                    <ul class="footer-inner-links">
+                                        <li>
+                                            <a href="aerospace-defence.html">Aerospace & Defence</a>
+                                        </li>
+                                        <li>
+                                            <a href="automotive.html">Automotive</a>
+                                        </li>
                                         <li>
                                             <a href="cpg.html">CPG</a>
                                         </li>
                                         <li>
-                                            <a href="e-commerce.html"> E-Commerce</a>
+                                            <a href="e-commerce.html">E-Commerce</a>
                                         </li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul style="list-style:none;padding-left: 0;">
                                         <li>
                                             <a href="life-sciences.html">Life Sciences</a>
                                         </li>
                                         <li>
-                                            <a href="manufacturing.html"> Manufacturing</a>
+                                            <a href="manufacturing.html">Manufacturing</a>
                                         </li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul style="list-style:none;padding-left: 0;">
                                         <li>
-                                            <a href="oil-gas.html"> Oil & Gas</a>
+                                            <a href="oil-gas.html">Oil & Gas</a>
                                         </li>
                                         <li>
                                             <a href="professional-services.html">Professional Services</a>
                                         </li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul style="list-style:none;padding-left: 0;">
                                         <li>
-                                            <a href="retail.html"> Retail</a>
+                                            <a href="retail.html">Retail</a>
                                         </li>
                                         <li>
                                             <a href="telecom.html">Telecom</a>
                                         </li>
                                     </ul>
                                 </div>
-                            </div>                                
-                        </div>
-                    </li>
-                </ul>
-            </div>          
-        </div>
-        <!-- main menu -->
-        <div class="header">       
-            <div class="container">     
-                <div class="row fixed top-0 z-1">     
-                    <div class="col-md-12 bg-white" >  
-                        <div class="row">
-                            <div class="col-md-12 d-none d-sm-none d-md-block">
-                                <ul class="nav-items d-flex">
-                                    <li class="pt-2">
-                                        <a href="index.html"><img src="./assets/logo.png" alt="logo" /></a>
-                                    </li>
-                                    <li class=" navbar-item">
-                                        <div class="nav-aboutus">
-                                            <a href="">About Us</a>
-                                            <div class="aboutus-nav-items" >
-                                                <ul style="list-style:none;">
-                                                    <li>
-                                                        <a href="team-company-history.html">Our Company, Team & History</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>                                        
-                                    </li>
-                                    <li class="navbar-item">
-                                        <div class="nav-product">
-                                            <a href="">Products</a>
-                                            <div class="product-nav-items py-4 px-4">
-                                                <div class="d-flex pt-2">
-                                                    <div >
-                                                        <h5>Spend Management</h5>
-                                                        <ul>                               
-                                                            <li>
-                                                                <a href="SAP-ariba.html">SAP Ariba</a>
-                                                            </li>
-                                                        </ul> 
-                                                    </div>
-                                                </div>                                            
-                                            </div>
-                                        </div>    
-                                    </li>
-                                    <li class="navbar-item">
-                                        <div class="nav-services">
-                                            <a href="">Services</a>
-                                            <div class="services-nav-items">
-                                                <ul style="list-style:none;">
-                                                    <li>
-                                                        <a href="statergic-advisory.html"> Strategic Advisory</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="support-services.html"> Support Services</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="professional-services.html"> professional Services</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>    
-                                    </li>
-                                    <li class="navbar-item ">
-                                        <div class="nav-industries">
-                                            <a href="">Industries</a>
-                                            <div class="industries-nav-items py-4 px-4">
-                                                <div class="d-flex justify-content-around">
-                                                    <div>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="aerospace-defence.html"> Aerospace & Defense</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="automotive.html"> Automotive</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="cpg.html">CPG</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="e-commerce.html"> E-Commerce</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="life-sciences.html">Life Sciences</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="manufacturing.html"> Manufacturing</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="oil-gas.html"> Oil & Gas</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="professional-services.html">Professional Services</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="retail.html"> Retail</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="telecom.html">Telecom</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                
-                                            </div>
-                                        </div>    
-                                    </li>
-                                </ul> 
                             </div>
-                        </div>                   
-                    </div>
-                </div>     
-            </div>
-            <div class="progress-container">
-                <div class="progress-bar" id="progressBar"></div>
-            </div>
-        </div>
-        <!-- banner -->
-        <div class="oil-gas-banner py-5 d-flex">
-            <img src="./assets/triangle.svg" alt="" style="width: 5%;">
-            <div class="pl-4 py-4"> 
-                <h1 class="text-white fw-bold pl-1">OIL AND GAS</h1>
-            </div>           
-        </div>
-        <div class="contianer">
-            <div class="pt-3 px-5">
-                <h1 class="fw-bold">WHY YOU NEED THE INTELLIGENT ENTERPRISE</h1>
-                <p class="pt-3"> 
-                    Don’t wait-- Right now is the time to get ahead competition and leverage technology to increase and revolutionize your businesses core capabilities. Simplify the standardize processes to enable innovation in oil and gas with intelligent cloud services.
-                </p>
-            </div>
-            <div class="pt-3 px-5">
-                <h1 class="fw-bold">WHAT COGNITUS DOES FOR YOU</h1>
-                <p class="pt-3"> 
-                    The switch to SAP Intelligent Enterprise may seem overwhelming and challenging, as it might encompass a change never before experienced by your company. Cognitus solely serves to alleviate this issue and guide you along the entire value chain, from upstream, midstream and downstream.
-                </p>
-                <p class="pt-3">
-                    We will assess your company’s specific needs and requirements, build a strategy that adheres to your specifications and industry trends and provide implementation, all while training your stakeholders to get the most value from SAP.
-                </p>
-            </div>
-            <div class="pt-3 px-5">
-                <h1 class="fw-bold">ROADMAP FOR OIL AND GAS</h1>
-                <p class="pt-3"> 
-                    The Intelligent Enterprise takes a forward-thinking approach to help you deliver safe, reliable and sustainable energy. Explore our oil and gas road map to learn about current industry solutions, planned innovations and future direction.
-                </p>
-            </div>
-        </div>
-        <div class="row-five">
-            <div class="container">
-                <div class="row pt-5 pb-2 px-5 d-flex">
-                    <div class="col-md-2">
-                        <img src="./assets/icon0_oil_gas.svg" alt="" style="width:90%;">                    
-                    </div>
-                    <div class="col-md-9 d-flex flex-column justify-content-center">
-                        <h1 class="fw-bold">CURRENT RELEASE HIGHLIGHTS</h1>
-                    </div>   
-                </div>  
-                <div class="pb-2 px-5">
-                    <p>
-                        . Project management suite that supports project roles for long- to short-term planning <br>
-                        . Integrated revenue accounting and production operations, determining well-level profitability <br>
-                        . Visual and mobile user interfaces, providing real-time visibility into supply chains <br>
-                        . Intelligent asset management with digital twin technology <br>
-                        . Predictive analytics capabilities for operational excellence
-                    </p>
-                </div> 
-                <div class="row pt-5 pb-2 px-5 d-flex">
-                    <div class="col-md-2">
-                        <img src="./assets/icon-1_oil_gas.svg" alt="" style="width:90%;">                    
-                    </div>
-                    <div class="col-md-9 d-flex flex-column justify-content-center">
-                        <h1 class="fw-bold">UPCOMING INNOVATIONS</h1>
-                    </div>                
-                </div>    
-                <div class="pb-2 px-5">
-                    <p>
-                        . Public cloud project management solution with role-based user interfaces <br>
-                        . Production and revenue accounting with upstream hydrocarbon accounting and management <br>
-                        . Visual user interface with interactive functionality for supply chain management <br>
-                        . Asset monitoring, based on granular data from sensors and maintenance history
-                    </p>
-                </div>  
-            
-                <div class="row pt-5 pb-2 px-5 d-flex">
-                    <div class="col-md-2">
-                        <img src="./assets/icon-2_oil_gas.svg" alt="" style="width:90%;">                    
-                    </div>
-                    <div class="col-md-9 d-flex flex-column justify-content-center">
-                        <h1 class="fw-bold">WHAT DOES THE FUTURE LOOK LIKE?</h1>
-                    </div> 
-                </div>    
-                <div class="pb-2 px-5">
-                    <p>
-                        . Use smart algorithms to assess project status and contractor performance and reliability <br>
-                        . Develop flexible structures to identify required elements for contracts, costs, and revenue <br>
-                        . Offer a platform enabling collaboration, transparency, and security in hydrocarbon movements <br>
-                        . Deliver comprehensive features that support end-to-end processes for asset management
-                    </p>
-                </div>
-                <div class="row py-4 px-4 text-center justify-content-center">
-                    <div class="col-md-2">
-                        <img src="./assets/n1_oil_gas.svg" alt="">
-                        <p class="pt-2">
-                            Of oil and gas companies will leverage real-time equipment and asset performance data to self-diagnose issues by 2021
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                        <img src="./assets/n2_oil_gas.svg" alt="">
-                        <p class="pt-2">Of oil and gas companies will have created new ecosystems by implementing AI and blockchain by 2022</p>
-                    </div>
-                    <div class="col-md-2">
-                        <img src="./assets/n3_oil_gas.svg" alt="">
-                        <p class="pt-2">Of new mobile apps use voice as a primary interface</p>
-                    </div>
-                    <div class="col-md-2">
-                        <img src="./assets/n4_oil_gas.svg" alt="">
-                        <p class="pt-2">Of manufacturers are predicted to use network related products and set digital twins into digital twins ecosystems for a systems-level view of their business by 2024</p>
-                    </div>
-                    <div class="col-md-2">
-                        <img src="./assets/n5_oil_gas.svg" alt="">
-                        <p class="pt-2">Of manufacturers are predicted to network related products and set digital twins into digital twins ecosystems for a systems-level view of their business by 2024</p>
-                    </div>
-                </div> 
-            </div>                          
-        </div>
-        <div class="container">
-            <div class="py-5 px-5">
-                <h1 class="fw-bold">WHAT IS OUR STRATEGY FOR SUCCESS?</h1>
-                <p class="pt-3"> 
-                    Continued investment and ingenuity are expanding the energy network infrastructure, Digital leaders are delivering operationally ready assets, often on a performance or revenue – share basis, by using the power of supercomputing for more accurate exploration and effective asset design and construction.
-                </p>
-            </div> 
-            <div class="row pt-5 pb-2 px-5 d-flex">
-                <div class="col-md-2">
-                    <img src="./assets/icon1_oil_gas.svg" alt="" style="width:90%;">                    
-                </div>
-                <div class="col-md-9 d-flex flex-column justify-content-center">
-                    <h1 class="fw-bold">EXTEND BEYOND THE BARREL</h1>
-                </div>                
-            </div>
-            <div class="px-5">
-                <p class="pt-2">
-                    Personalization is dominating all industries including oil and gas. By 2025, personalized offerings will generate a $95B industry.
-                </p>
-                <ul class="pt-2">
-                    <li>Create services that optimize transportation, heating & cooling and power based upon real consumer insights,</li>
-                    <li>Breakthrough traditional and outdated services to create sustainable and convenient energy outcomes that focus on transportation, climate control and powered devices</li>
-                </ul>
-            </div>
-            <div class="row pt-5 pb-2 px-5 d-flex">
-                <div class="col-md-2">
-                    <img src="./assets/icon2_oil_gas.svg" alt="" style="width:90%;">                    
-                </div>
-                <div class="col-md-9 d-flex flex-column justify-content-center">
-                    <h1 class="fw-bold">DIGITALIZE PRODUCT AND DELIVERY</h1>
-                </div>                
-            </div>
-            <div class="px-5">
-                <p class="pt-2">
-                    To be a big player in the future, companies will need to be superior in gaining insights from their operations, products and services. Automation by AI and machine learning will be the foundation of such processes, supporting a digital hydrocarbon supply chain.
-                </p>
-                <ul class="pt-2">
-                    <li>Manage physical deliveries without owning or operating inventory or hiring</li>
-                    <li>Efficient asset maintenance to lower costs, risks and optimize performance</li>
-                </ul>
-            </div>
-            <div class="row pt-5 pb-2 px-5 d-flex">
-                <div class="col-md-2">
-                    <img src="./assets/icon3_oil_gas.svg" alt="" style="width:90%;">                    
-                </div>
-                <div class="col-md-9 d-flex flex-column justify-content-center">
-                    <h1 class="fw-bold">COMPETE AS AN ECOSYSTEM</h1>
-                </div>                
-            </div>
-            <div class="px-5">
-                <p class="pt-2">
-                    Manage safety, cost and agility with AI and continuously improve and innovate your designs and operations based upon performance feedback to get a competitive advantage. The future of this industry will rely on seamless data sharing with all ecosystem partners so that collaborative efforts can take place.    
-                </p>
-                <ul class="pt-2">
-                    <li>Increase profits and revenue with real-time data and optimized cloud business processes</li>
-                </ul>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row py-5 px-5">
-                <div class="col">
-                    <p>SUPPLIER</p>
-                    <img src="./assets/icon15_oil_gas.svg" alt="" class="w-50">
-                    <p>SUPPLY</p>
-                </div>
-                <div class="col">
-                    <img src="./assets/icon16_oil_gas.svg" alt="" class="w-50 pt-2">
-                    <p>PRODUCTION</p>
-                </div>
-                <div class="col">
-                    <img src="./assets/icon17_oil_gas.svg" alt="" class="w-75 pt-2">
-                    <p>PRIMARY DISTRIBUTION</p>
-                </div>
-                <div class="col">
-                    <img src="./assets/icon18_oil_gas.svg" alt="" class="w-50">
-                    <p>REFINING</p>
-                </div>
-                <div class="col">
-                    <img src="./assets/icon16_oil_gas_2.svg" alt="" class="w-50">
-                    <p>MARKETING AND SALES</p>
-                </div>
-                <div class="col">
-                    <img src="./assets/icon19_oil_gas.svg" alt="" class="w-75 pt-2">
-                    <p>SECONDARY DISTRIBUTION</p>
-                </div>
-                <div class="col">
-                    <img src="./assets/icon20_oil_gas.svg" alt="" class="w-50">
-                    <p>CONVENIENCE
-                        STORE</p>
-                </div>
-                <div class="col">
-                    <p>CUSTOMER</p>
-                    <img src="./assets/icon21_oil_gas.svg" alt="" class="w-50">
-                    <p>DEMAND</p>
-                </div>
-            </div>
-            <div class="row py-2 px-4">
-                <div class="col-md-2">
-                    <div>
-                        <p class="fw-bold">
-                            1. Become stakeholder centric
-                        </p>
-                        <hr>
-                        <p class="py-2">
-                            With XM, oil and gas companies can trigger landowner or venture partner feedback to better understand impressions and sentiments before and after any new or revised royalty or venture agreements.
-                        </p>  
-                    </div>
-                    <div>
-                        <p class="fw-bold">
-                            2. Optimized well lifecycle
-                        </p>
-                        <hr>
-                        <div class="py-2">
-                            With XM, oil and gas companies can trigger employee feedback to hear directly from them and contractors to better understand what hazards they encounter and what can be done to avoid such hazards.
-                        </div>
-                    </div>                    
-                </div>
-                <div class="col-md-2">
-                    <div>
-                        <p class="fw-bold">
-                            3. Become stakeholder centric
-                        </p>
-                        <hr>
-                        <p class="py-2">
-                            With XM, HR managers can capture in the moment feedback from current and prospective employees to better understand specifically why they are not attracting and retaining talent.
-                        </p>  
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div>
-                        <p class="fw-bold">
-                            4. Achieve exceptional maintenance service experience and technician engagement
-                        </p>
-                        <hr>
-                        <p class="py-2">
-                            With XM, OEM services managers can trigger partners and technician feedback to understand the shortages and leftovers of a toolbox and why service is underperforming.
-                        </p>  
-                    </div>
-                    <div>
-                        <p class="fw-bold">
-                            5. Optimize safety for workers
-                        </p>
-                        <hr>
-                        <p class="py-2">
-                            With XM, construction companies can trigger employee feedback to hear directly from them to better understand what hazard they encounter and what can be done to avoid such hazards.
-                        </p>  
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div>
-                        <p class="fw-bold">
-                            6. Improve supplier collaboration: treat your carriers like customers
-                        </p>
-                        <hr>
-                        <p class="py-2">
-                            With XM, logistics managers can capture in-the-moment supplier feedback to better understand supplier emotions and sentiments and, in this case, why service is poor.
-                        </p>  
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div>
-                        <p class="fw-bold">
-                            7. Achieve top customer satisfaction with aviation fuel delivery excellence
-                        </p>
-                        <hr>
-                        <p class="py-2">
-                            With XM, Jet-A1 fueling companies can capture feedback to better understand customer preferences and staff experiences on their core activities and interactions.
-                        </p>  
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div>
-                        <p class="fw-bold">
-                            8. Differentiate through superior shopping experience at service station
-                        </p>
-                        <hr>
-                        <p class="py-2">
-                            Looking for the WHY service stations can capture regular or event-triggered customer feedback to better understand emotions and sentiments directed towards the shopping experience and, in this case, specifically why customers have changed their routines.
-                        </p>  
-                    </div>
-                </div>
-            </div>
-            <div class="row py-2 px-4">
-                <p>
-                  <b>Experience Management -</b>the ability to understand what is happening through operational data (O-data): interlock it with experience data (X-data) from customers, suppliers, and employees; and act on insight to improve organizational performance and deliver better outcomes.  
-                </p>                
-            </div>
-        </div>
-        <!-- carousel two -->
-        <div>
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-12">
-                        <div id="my-carousel" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="row">
-                                        <div class="col-md-3 col-sm-6">
-                                            <div class="img-area">
-                                                <img src="./assets/slick-slide-image-one.png" class="d-block" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 col-sm-6">
-                                            <div class="img-area">
-                                                <img src="./assets/slick-slide-image-two.png" class="d-block" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 col-sm-6">
-                                            <div class="img-area">
-                                                <img src="./assets/slick-slide-image-three.png" class="d-block" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 col-sm-6">
-                                            <div class="img-area">
-                                                <img src="./assets/slick-slide-image-four.png" class="d-block" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div class="footer-nav-iterm">
+                                <h5 class="footer-sub-heading">Regional Landing Page</h5>
+                                <div class="footer">
+                                    <ul class="footer-inner-links">
+                                        <li>
+                                            <a href="">Europe</a>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-md-3 col-sm-6">
-                                            <div class="img-area">
-                                                <img src="./assets/slick-slide-image-five.png" class="d-block" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 col-sm-6">
-                                            <div class="img-area">
-                                                <img src="./assets/slick-slide-image-six.png" class="d-block" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 col-sm-6">
-                                            <div class="img-area">
-                                                <img src="./assets/slick-slide-image-seven.png" class="d-block" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 col-sm-6">
-                                            <div class="img-area">
-                                                <img src="./assets/slick-slide-image-eight.png" class="d-block" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-md-3 col-sm-6">
-                                            <div class="img-area">
-                                                <img src="./assets/slick-slide-image-one.png" class="d-block" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 col-sm-6">
-                                            <div class="img-area">
-                                                <img src="./assets/slick-slide-image-two.png" class="d-block" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 col-sm-6">
-                                            <div class="img-area">
-                                                <img src="./assets/slick-slide-image-three.png" class="d-block" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 col-sm-6">
-                                            <div class="img-area">
-                                                <img src="./assets/slick-slide-image-four.png" class="d-block" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
+                            </div>
+                            <div class="footer-nav-iterm">
+                                <h5 class="footer-sub-heading">Legal</h5>
+                                <div class="footer">
+                                    <ul class="footer-inner-links">
+                                        <li>
+                                            <a href="">Our Legals</a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -660,304 +943,71 @@
                 </div>
             </div>
         </div>
-        <!-- contact us section -->
-        <div class="contactus-section d-flex flex-column justify-content-center">
-            <div class=" ">
-                <p class = "contact-para">WE’RE READY <br>
-                    WHEN YOU ARE.</p>
-                <div class="contact-btn" >                         
-                    <a href="#" class="tenth-row-contact" style="text-decoration:none">
-                        <img src="./assets/galoop-btn-logo.png" alt="" style="width:15px;height:15px;">&nbsp
-                        CONTACT US
-                    </a>                   
-                </div>     
-            </div>               
-        </div>
-        <!-- footer -->
-        <div class="footer-content">
-            <div class="container py-5">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 class="footer-main-heading">Our Services & Portfolio</h1>
-                        <div class="row">
-                            <div class="col-md-3 col-sm-6">
-                                <div class="footer-nav-item">
-                                   <h5 class="footer-sub-heading">About Us</h5>
-                                    <div class="footer-about-us">
-                                        <ul class="footer-inner-links">
-                                            <li>
-                                                <a href="team-company-history.html">Our Company, Team & History</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Our Partners</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Our Locations</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Careers</a>
-                                            </li>
-                                        </ul>
-                                    </div> 
-                                </div>
-                                <div class="footer-nav-iterm">
-                                    <h5 class="footer-sub-heading">Products</h5>
-                                    <div class="footer">
-                                        <ul class="footer-inner-links">
-                                            <li>
-                                                <a href="SAP-ariba.html">SAP Ariba</a>
-                                            </li>
-                                            <li>
-                                                <a href="">SAP Fieldglass</a>
-                                            </li>
-                                            <li>
-                                                <a href="">SAP Concur</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Microsoft Power BI</a>
-                                            </li>
-                                            <li>
-                                                <a href="">SAP SuccessFactors</a>
-                                            </li>
-                                            <li>
-                                                <a href="">LiveHire</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="footer-nav-iterm">
-                                    <h5 class="footer-sub-heading">Finance & Accounting</h5>
-                                    <div class="footer">
-                                        <ul class="footer-inner-links">
-                                            <li>
-                                                <a href="">Hamilton IFRS Compliance</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Hamilton IFRS 15 Compliance</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Hamilton ASC 842/ IFRS16 Compliance</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Pricefx</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>                                
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="footer-nav-iterm">
-                                    <h5 class="footer-sub-heading">Solutions</h5>
-                                    <div class="footer">
-                                        <ul class="footer-inner-links">
-                                            <li>
-                                                <a href="">SAP Surround on Azure</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Gallop Pilot</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Gallop Deployment</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Virtual Digital Assistants</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="footer-nav-iterm">
-                                    <h5 class="footer-sub-heading">IE Packaged Solutions</h5>
-                                    <div class="footer">
-                                        <ul class="footer-inner-links">
-                                            <li>
-                                                <a href="">Gallop Project Lifecycle Management</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Gallop Price Intelligence, Rebates & Channel Management</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Gallop Talent Intelligence</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Gallop Digital Supplier Network</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Gallop Life Sciences</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Gallop Defence Contract Lifecycle Management</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Gallop CPQ Dealer Automative Promotions</a>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="footer-nav-iterm">
-                                    <h5 class="footer-sub-heading">Services</h5>
-                                    <div class="footer">
-                                        <ul class="footer-inner-links">
-                                            <li>
-                                                <a href="statergic-advisory.html">Strategic Advisory</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Aupport Services</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="footer-nav-iterm">
-                                    <h5 class="footer-sub-heading">Supply Chain</h5>
-                                    <div class="footer">
-                                        <ul class="footer-inner-links">
-                                            <li>
-                                                <a href="">WM/ EWM</a>
-                                            </li>
-                                            <li>
-                                                <a href="">IBP</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="footer-nav-iterm">
-                                    <h5 class="footer-sub-heading">Resources</h5>
-                                    <div class="footer">
-                                        <ul class="footer-inner-links">
-                                            <li>
-                                                <a href="">On Demadn Content, Videos Articles, Blogs, White Papers</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Brochures</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Success Stories/ Testimonials/Case Studies</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="footer-nav-iterm">
-                                    <h5 class="footer-sub-heading">Industries</h5>
-                                    <div class="footer">
-                                        <ul class="footer-inner-links">
-                                            <li>
-                                                <a href="aerospace-defence.html">Aerospace & Defence</a>
-                                            </li>
-                                            <li>
-                                                <a href="automotive.html">Automotive</a>
-                                            </li>
-                                            <li>
-                                                <a href="cpg.html">CPG</a>
-                                            </li>
-                                            <li>
-                                                <a href="e-commerce.html">E-Commerce</a>
-                                            </li>
-                                            <li>
-                                                <a href="life-sciences.html">Life Sciences</a>
-                                            </li>
-                                            <li>
-                                                <a href="manufacturing.html">Manufacturing</a>
-                                            </li>
-                                            <li>
-                                                <a href="oil-gas.html">Oil & Gas</a>
-                                            </li>
-                                            <li>
-                                                <a href="professional-services.html">Professional Services</a>
-                                            </li>
-                                            <li>
-                                                <a href="retail.html">Retail</a>
-                                            </li>
-                                            <li>
-                                                <a href="telecom.html">Telecom</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="footer-nav-iterm">
-                                    <h5 class="footer-sub-heading">Regional Landing Page</h5>
-                                    <div class="footer">
-                                        <ul class="footer-inner-links">
-                                            <li>
-                                                <a href="">Europe</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="footer-nav-iterm">
-                                    <h5 class="footer-sub-heading">Legal</h5>
-                                    <div class="footer">
-                                        <ul class="footer-inner-links">
-                                            <li>
-                                                <a href="">Our Legals</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+    </div>
+    <!-- follow us -->
+    <div class="follow-us-row">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <h2 class="text-white fw-bold">Follow Us</h2>
+                        </div>
+                        <div class="col-md-2 d-flex footer-social-icons">
+                            <a href="https://www.facebook.com/">
+                                <img src="./assets/facebook.png" alt="">
+                            </a>
+                            <a href="https://linkedin.com/">
+                                <img src="./assets/linkedin.png" alt="">
+                            </a>
+                            <a href="https://twitter.com/">
+                                <img src="./assets/twitter.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-md-5 d-flex follow-us-TC py-3">
+                            <a href="">Terms & Conditions</a>
+                            <a href="">Privacy Policy</a>
+                            <a href="">Cookie Policy</a>
+                            <a href="">Disclaimer</a>
+                            <a href="">Anti-slavery Document</a>
+                        </div>
+                        <div class="col-md-3 d-flex">
+                            <img src="./assets/footer-02.png" alt="" style="height:40px; padding-right: 4px;">
+                            <img src="./assets/footer-03.png" alt="" style="height:40px;">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- follow us -->
-        <div class="follow-us-row">
-            <div class="container py-4">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="col-md-2">
-                                <h2 class = "text-white fw-bold">Follow Us</h2>
-                            </div>
-                            <div class="col-md-2 d-flex footer-social-icons">
-                                <a href="https://www.facebook.com/">
-                                    <img src="./assets/facebook.png" alt="">
-                                </a>
-                                <a href="https://linkedin.com/">
-                                    <img src="./assets/linkedin.png" alt="">
-                                </a>
-                                <a href="https://twitter.com/">
-                                    <img src="./assets/twitter.png" alt="">
-                                </a>
-                            </div>
-                            <div class="col-md-5 d-flex follow-us-TC py-3">
-                                <a href="">Terms & Conditions</a>
-                                <a href="">Privacy Policy</a>
-                                <a href="">Cookie Policy</a>
-                                <a href="">Disclaimer</a>
-                                <a href="">Anti-slavery Document</a>
-                            </div>
-                            <div class="col-md-3 d-flex">
-                                <img src="./assets/footer-02.png" alt="" style = "height:40px; padding-right: 4px;">
-                                <img src="./assets/footer-03.png" alt="" style = "height:40px;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copy-rights py-2">
-            <p class ="pt-2"> &copy; 2021 Cognitus. All Rights Reserved</p>
-        </div>        
-    </body>  
-    <!-- Optional JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha512-YK1Mz9UiZmhbFzXgMbl3bO49wZ78Xj3h8TtTBLFHEAEjUBxsEZdXd8Il5RWbhPOyB653bGQDNVGGny2mORZq4A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="https://kit.fontawesome.com/8de56a1913.js" crossorigin="anonymous"></script>
-    <script>
+    </div>
+    <div class="copy-rights py-2">
+        <p class="pt-2"> &copy; 2021 Cognitus. All Rights Reserved</p>
+    </div>
+</body>
+<!-- Optional JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha512-YK1Mz9UiZmhbFzXgMbl3bO49wZ78Xj3h8TtTBLFHEAEjUBxsEZdXd8Il5RWbhPOyB653bGQDNVGGny2mORZq4A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://kit.fontawesome.com/8de56a1913.js" crossorigin="anonymous"></script>
+<script>
     AOS.init({
         duration: 1000,
         once: true,
-        
+
     });
-    </script>
-    <script src = "./assets/script.js"></script>    
+</script>
+<script src="./assets/script.js"></script>
+
 </html>

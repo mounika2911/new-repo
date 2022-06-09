@@ -1,865 +1,891 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Cognitus | Statergic Advisory</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link href="./assets/style.css" rel="stylesheet">
-        <!-- animation -->
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-    </head>
-    <body>
-        <!-- header -->
-        <div class="contact-fixed-button">
-            <a href="" >
-                <img src="./assets/btn-contact.svg" alt="">
-            </a>           
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Cognitus | Statergic Advisory</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="./assets/style.css" rel="stylesheet">
+    <!-- animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+</head>
+
+<body>
+    <!-- header -->
+    <div class="contact-fixed-button">
+        <a href="">
+            <img src="./assets/btn-contact.svg" alt="">
+        </a>
+    </div>
+    <!-- mobile menu -->
+    <div class="mobile-menu d-sm-block d-md-none">
+        <div class="icon-logo d-flex justify-content-between px-2 py-2">
+            <div class="sm-menu-icon px-2 py-2" id="mobile-menu">
+
+                <i class="fa-solid fa-ellipsis-vertical" style="color: black;font-size:30px"></i>
+
+            </div>
+            <div class="sm-logo">
+                <a href="index.html"><img src="./assets/logo.png" alt="logo" /></a>
+            </div>
         </div>
-        <!-- mobile menu -->
-        <div class="mobile-menu d-sm-block d-md-none">
-            <div class="icon-logo d-flex justify-content-between px-2 py-2">
-                <div class="sm-menu-icon px-2 py-2" id="mobile-menu">
-                    
-                        <i class="fa-solid fa-ellipsis-vertical" style="color: black;font-size:30px"></i>
-                    
+        <div class="nav-menu-items hide-menu" id="menu-items">
+            <ul class="nav-items">
+                <li class="navbar-item">
+                    <div class="nav-aboutus d-flex justify-content-between" id="aboutus-menu">
+                        <p>About Us</p>
+                        <i class="fa-solid fa-angle-down pr-3"></i>
+                    </div>
+                    <div class="aboutus-menu-items hide-menu" id="aboutus-menu-items">
+                        <ul style="list-style:none; padding-left: 0;">
+                            <li>
+                                <a href="team-company-history.html">Our Company, Team & History</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navbar-item d-none">
+                    <div class="nav-solutions d-flex justify-content-between" id="solution-menu">
+                    </div>
+                </li>
+                <li class="navbar-item">
+                    <div class="nav-product d-flex justify-content-between" id="product-menu">
+                        <p>Products</p>
+                        <i class="fa-solid fa-angle-down pr-3"></i>
+                    </div>
+                    <div class="product-menu-items hide-menu" id="product-menu-items">
+                        <div class="pt-2">
+                            <div>
+                                <h5>Spend Management</h5>
+                                <ul style="list-style:none;">
+                                    <li>
+                                        <a href="SAP-ariba.html">SAP Ariba</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar-item">
+                    <div class="nav-services d-flex justify-content-between" id="services-menu">
+                        <p>Services</p>
+                        <i class="fa-solid fa-angle-down pr-3"></i>
+                    </div>
+                    <div class="services-menu-items hide-menu" id="services-menu-items">
+                        <ul style="list-style:none;padding-left: 0;">
+                            <li>
+                                <a href="statergic-advisory.html"> Strategic Advisory</a>
+                            </li>
+                            <li>
+                                <a href="support-services.html"> Support Services</a>
+                            </li>
+                            <li>
+                                <a href="professional-services.html"> professional Services</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navbar-item ">
+                    <div class="nav-industries d-flex justify-content-between" id="industries-menu">
+                        <p>Industries</p>
+                        <i class="fa-solid fa-angle-down pr-3"></i>
+                    </div>
+                    <div class="industries-menu-items hide-menu" id="industries-menu-items">
+                        <div class="">
+                            <div>
+                                <ul style="list-style:none;padding-left: 0;">
+                                    <li>
+                                        <a href="aerospace-defence.html"> Aerospace & Defense</a>
+                                    </li>
+                                    <li>
+                                        <a href="automotive.html"> Automotive</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul style="list-style:none;padding-left: 0;">
+                                    <li>
+                                        <a href="cpg.html">CPG</a>
+                                    </li>
+                                    <li>
+                                        <a href="e-commerce.html"> E-Commerce</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul style="list-style:none;padding-left: 0;">
+                                    <li>
+                                        <a href="life-sciences.html">Life Sciences</a>
+                                    </li>
+                                    <li>
+                                        <a href="manufacturing.html"> Manufacturing</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul style="list-style:none;padding-left: 0;">
+                                    <li>
+                                        <a href="oil-gas.html"> Oil & Gas</a>
+                                    </li>
+                                    <li>
+                                        <a href="professional-services.html">Professional Services</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul style="list-style:none;padding-left: 0;">
+                                    <li>
+                                        <a href="retail.html"> Retail</a>
+                                    </li>
+                                    <li>
+                                        <a href="telecom.html">Telecom</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- main menu -->
+    <div class="header">
+        <div class="container">
+            <div class="row fixed top-0 z-1">
+                <div class="col-md-12 bg-white">
+                    <div class="row">
+                        <div class="col-md-12 d-none d-sm-none d-md-block">
+                            <ul class="nav-items d-flex">
+                                <li class="pt-2">
+                                    <a href="index.html"><img src="./assets/logo.png" class="logo-position"
+                                            alt="logo" /></a>
+                                </li>
+                                <li class=" navbar-item">
+                                    <div class="nav-aboutus">
+                                        <a href="">About Us</a>
+                                        <div class="aboutus-nav-items">
+                                            <ul style="list-style:none;">
+                                                <li>
+                                                    <a href="team-company-history.html">Our Company, Team & History</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="navbar-item">
+                                    <div class="nav-product">
+                                        <a href="">Products</a>
+                                        <div class="product-nav-items py-4 px-4">
+                                            <div class="d-flex pt-2">
+                                                <div>
+                                                    <h5>Spend Management</h5>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="SAP-ariba.html">SAP Ariba</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="navbar-item">
+                                    <div class="nav-services">
+                                        <a href="">Services</a>
+                                        <div class="services-nav-items">
+                                            <ul style="list-style:none;">
+                                                <li>
+                                                    <a href="statergic-advisory.html"> Strategic Advisory</a>
+                                                </li>
+                                                <li>
+                                                    <a href="support-services.html"> Support Services</a>
+                                                </li>
+                                                <li>
+                                                    <a href="professional-services.html"> professional Services</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="navbar-item ">
+                                    <div class="nav-industries">
+                                        <a href="">Industries</a>
+                                        <div class="industries-nav-items py-4 px-4">
+                                            <div class="d-flex justify-content-around">
+                                                <div>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="aerospace-defence.html"> Aerospace & Defense</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="automotive.html"> Automotive</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="cpg.html">CPG</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="e-commerce.html"> E-Commerce</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="life-sciences.html">Life Sciences</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="manufacturing.html"> Manufacturing</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="oil-gas.html"> Oil & Gas</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="professional-services.html">Professional
+                                                                Services</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="retail.html"> Retail</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="telecom.html">Telecom</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="sm-logo">
-                    <a href="index.html"><img src="./assets/logo.png" alt="logo" /></a>
-                </div> 
-            </div>       
-            <div class="nav-menu-items hide-menu" id = "menu-items">
-                <ul class="nav-items">
-                    <li class="navbar-item">
-                        <div class="nav-aboutus d-flex justify-content-between" id="aboutus-menu">
-                            <p >About Us</p>
-                            <i class="fa-solid fa-angle-down pr-3"></i>
+            </div>
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- banner -->
+    <div class="statergic_bg py-5 px-5">
+        <div class="d-flex">
+            <div class="col-md-9">
+                <h1 class="text-white fw-bold">
+                    SAP STRATEGIC ADVISORY <br>
+                    SERVICE WITH COGNITUS
+                </h1>
+                <h4 class="text-white">
+                    LET US ZERO-IN ON
+                    YOUR BUSINESS NEEDS
+                </h4>
+            </div>
+            <div class="col-md-3 text-right">
+                <h6>
+                    Discover the optimum path for your business to maximize your investments in SAP solutions; increase
+                    business efficiency and seamlessly weave technology and business together.
+                </h6>
+            </div>
+        </div>
+    </div>
+    <div class="container my-4 px-5">
+        <p>
+            Cognitus is a long-term strategic partner for SAP and has been working with SAP to support enterprise
+            adoption of SAP products since 2002. Cognitus' SAP strategic advisory service is driven by thought leaders
+            and consultants with a minimum of 15+ years of SAP experience. Our aim is to help businesses to optimize
+            their investments in SAP solutions leveraging their experience in technology and business for a holistic
+            solution that is sustainable and scalable. Immerse yourselves in round table style conversations with our
+            experts to discover the roadmap to a successful future.
+        </p>
+        <a href="" class="more-info"> + More Information</a>
+    </div>
+    <div>
+        <div class="row-five">
+            <h2 class="text-center fw-bold py-4">FOUR PILLARS OF ADVICE STRATEGY</h2>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-3 icon1_data">
+                        <div class="py-5">
+                            <p>Leverage real-time data processing that combines transactions and analytics</p>
+                            <h4 class="py-2">PROCESS</h4>
                         </div>
-                        <div class="aboutus-menu-items hide-menu" id = "aboutus-menu-items">
-                            <ul style="list-style:none; padding-left: 0;">
-                                <li>
-                                    <a href="team-company-history.html">Our Company, Team & History</a>
-                                </li>
-                            </ul>
+                        <div class="py-5">
+                            <h4 class="py-2">USER EXPERIENCE</h4>
+                            <p>Should be intuitive and easy to understand</p>
                         </div>
-                    </li>
-                    <li class="navbar-item d-none">
-                        <div class="nav-solutions d-flex justify-content-between" id="solution-menu">
-                        </div>                                             
-                    </li>
-                    <li class="navbar-item">
-                        <div class="nav-product d-flex justify-content-between" id="product-menu">
-                            <p>Products</p>
-                            <i class="fa-solid fa-angle-down pr-3"></i>
-                        </div>                                                         
-                        <div class="product-menu-items hide-menu" id = "product-menu-items">
-                            <div class="pt-2">
-                                <div >
-                                    <h5>Spend Management</h5>
-                                    <ul style="list-style:none;">                               
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./assets/icon1.svg" alt="">
+                    </div>
+                    <div class="col-md-3 icon1_data">
+                        <div class="py-5">
+                            <p>Automate repetitive processes, free up resources for meaningful engagements</p>
+                            <h4 class="py-2">EFFICIENCY</h4>
+                        </div>
+                        <div class="py-5">
+                            <h4 class="py-2">SCALE</h4>
+                            <p>Allow growth for future need</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="row-five">
+            <h2 class="text-center fw-bold py-4">OUR CORE COMPETENCY AREAS ARE</h2>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-3 box-style py-4 py-4">
+                        <ul>
+                            <li>
+                                <b>AGILE /SAFE</b>
+                            </li>
+                            <li>Release on Demand</li>
+                            <li>Lean Mgmt.</li>
+                            <li>Team Agility</li>
+                            <li>Agile Coaching</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 box-style py-4">
+                        <ul>
+                            <li>
+                                <b>PMO</b>
+                            </li>
+                            <li>Manage</li>
+                            <li>Track</li>
+                            <li>Complete</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 box-style py-4">
+                        <ul>
+                            <li>
+                                <b>REQUIREMENTS</b>
+                            </li>
+                            <li>Fit to Standard</li>
+                            <li>Gap Identification</li>
+                            <li>Refine</li>
+                            <li>Review</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 box-style py-4">
+                        <ul>
+                            <li>
+                                <b>ARCHITECTURE</b>
+                            </li>
+                            <li>Solution</li>
+                            <li>Technical</li>
+                            <li>M&A</li>
+                            <li>Integration</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 box-style py-4">
+                        <ul>
+                            <li>
+                                <b>DESIGN</b>
+                            </li>
+                            <li>Create</li>
+                            <li>Augment</li>
+                            <li>Audit</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 box-style py-4">
+                        <ul>
+                            <li>
+                                <b>BUILD</b>
+                            </li>
+                            <li>Best practice</li>
+                            <li>Review</li>
+                            <li>Complete</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 box-style py-4">
+                        <ul>
+                            <li>
+                                <b>INTEGRATION</b>
+                            </li>
+                            <li>Custom Code</li>
+                            <li>API</li>
+                            <li>3rd Party</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 box-style py-4">
+                        <ul>
+                            <li>
+                                <b>DATA CONVERSION</b>
+                            </li>
+                            <li>Strategy</li>
+                            <li>Data Cleansing</li>
+                            <li>Data Enrichment</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 box-style py-4">
+                        <ul>
+                            <li>
+                                <b>TEST MANAGEMENT</b>
+                            </li>
+                            <li>Integration</li>
+                            <li>System</li>
+                            <li>User</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 box-style py-4">
+                        <ul>
+                            <li>
+                                <b>TRAINING & KT</b>
+                            </li>
+                            <li>KT Doc</li>
+                            <li>Train Org</li>
+                            <li>Support</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 box-style py-4">
+                        <ul>
+                            <li>
+                                <b>POST-GO-LIVE</b>
+                            </li>
+                            <li>Optimization</li>
+                            <li>Innovations</li>
+                            <li>Continuous</li>
+                            <li>improvements</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 box-style py-4">
+                        <ul>
+                            <li>
+                                <b>SUPPORT</b>
+                            </li>
+                            <li>AMS</li>
+                            <li>CoE</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="row-five">
+            <h2 class="text-center fw-bold py-4">COGNITUS DIFFERENTIATOR</h2>
+        </div>
+    </div>
+    <div class="container my-4">
+        <p class="p-5">
+            Cognitus leaders are SAP veterans with deep expertise that blends technological innovation and business
+            acumen. Cognitus is capable of supporting global companies with complex systems and sophisticated business
+            processes. Our customers business ranges from 200 million USD to 5 billion USD in annual revenue. At the
+            same time, we are not as big as some of our competitors; this allows us to react quicker to changing
+            requirements, develop personal connections and maintain focus on our core competencies. We have become
+            trusted partners of our customers in their journeys of growth and transformation.
+        </p>
+        <h1 class="text-center py-2 fw-bold">EXPERIENCE SAP S/4HANA IN MOTION</h1>
+        <h2 class="text-center py-2">Find out what SAP S/4HANA can do for you today</h2>
+        <h2 class="text-center py-2">Strategize the path to Digital Transformation</h2>
+        <h2 class="text-center py-2">Get a view of YOUR Intelligent Enterpise</h2>
+    </div>
+    <div>
+        <div class="row-five">
+            <h2 class="text-center fw-bold py-4">HOW ARE WE THE BEST CHOICE FOR THE CUSTOMER</h2>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mt-5 text-center">
+            <h4 class="fw-bold py-3">Our Approach</h4>
+            <h3>Cognitus Team Will Collaborate With Yours To:</h3>
+            <svg class="arrow">
+                <path class="a1" d="M0 0 L30 32 L60 0"></path>
+                <path class="a2" d="M0 20 L30 52 L60 20"></path>
+                <path class="a3" d="M0 40 L30 72 L60 40"></path>
+            </svg>
+        </div>
+        <div class="row text-center">
+            <h3>Understand Current Processes <br>
+                Uncover The Pain Points <br>
+                Comprehend The Motivators Of Change<br>
+                Know Budget And Time Constraints<br>
+                Share The Vision For The Outcome
+            </h3>
+            <svg class="arrow">
+                <path class="a1" d="M0 0 L30 32 L60 0"></path>
+                <path class="a2" d="M0 20 L30 52 L60 20"></path>
+                <path class="a3" d="M0 40 L30 72 L60 40"></path>
+            </svg>
+        </div>
+        <div class="row  text-center">
+            <h3>
+                Uncover The Business Impact Of Changes <br>
+                Evaluate Processes Against Industry Benchmarks<br>
+                Strategize Risk Mitigation<br>
+                Evaluate Integrations With Non-SAP Systems<br>
+                Understand Security Requirements<br>
+            </h3>
+            <svg class="arrow">
+                <path class="a1" d="M0 0 L30 32 L60 0"></path>
+                <path class="a2" d="M0 20 L30 52 L60 20"></path>
+                <path class="a3" d="M0 40 L30 72 L60 40"></path>
+            </svg>
+        </div>
+        <div class="row text-center">
+            <h3>
+                Prepare The Road Map To A Digital <br>
+                ERP That Can Scale With Emerging <br>
+                Technologies And Business Growth
+            </h3>
+            <svg class="arrow">
+                <path class="a1" d="M0 0 L30 32 L60 0"></path>
+                <path class="a2" d="M0 20 L30 52 L60 20"></path>
+                <path class="a3" d="M0 40 L30 72 L60 40"></path>
+            </svg>
+        </div>
+        <div class="row text-center">
+            <a href="" class="fw-bold" style="text-decoration:none">
+                <h3 style="color: #ba0711;">SCHEDULE A MEETING TODAY</h3>
+            </a>
+        </div>
+
+    </div>
+    <div class="container mt-5">
+        <h1 class="py-2">OUR CUSTOMERS</h1>
+        <h3 style="color: #ba0711;" class="py-2">PROVEN TRACK RECORD BY INDUSTRY</h3>
+        <img src="./assets/icon-statergy.svg" alt="">
+    </div>
+
+    <!-- contact us section -->
+    <div class="contactus-section d-flex flex-column justify-content-center">
+        <div class=" ">
+            <p class="contact-para">WE’RE READY <br>
+                WHEN YOU ARE.</p>
+            <div class="contact-btn">
+                <a href="#" class="tenth-row-contact" style="text-decoration:none">
+                    <img src="./assets/galoop-btn-logo.png" alt="" style="width:15px;height:15px;">&nbsp
+                    CONTACT US
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer-content">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="footer-main-heading">Our Services & Portfolio</h1>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="footer-nav-item">
+                                <h5 class="footer-sub-heading">About Us</h5>
+                                <div class="footer-about-us">
+                                    <ul class="footer-inner-links">
                                         <li>
-                                            <a href="SAP-ariba.html">SAP Ariba</a>
+                                            <a href="team-company-history.html">Our Company, Team & History</a>
                                         </li>
-                                    </ul> 
-                                </div>
-                            </div>                                
-                        </div>
-                    </li>
-                    <li class="navbar-item">
-                        <div class="nav-services d-flex justify-content-between" id="services-menu">
-                            <p>Services</p>
-                            <i class="fa-solid fa-angle-down pr-3"></i>
-                        </div>                            
-                        <div class="services-menu-items hide-menu" id = "services-menu-items">
-                            <ul style="list-style:none;padding-left: 0;">
-                                <li>
-                                    <a href="statergic-advisory.html"> Strategic Advisory</a>
-                                </li>
-                                <li>
-                                    <a href="support-services.html"> Support Services</a>
-                                </li>
-                                <li>
-                                    <a href="professional-services.html"> professional Services</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navbar-item ">
-                        <div class="nav-industries d-flex justify-content-between" id="industries-menu">
-                            <p>Industries</p>
-                            <i class="fa-solid fa-angle-down pr-3"></i>
-                        </div>                            
-                        <div class="industries-menu-items hide-menu" id = "industries-menu-items">
-                            <div class="">
-                                <div>
-                                    <ul style="list-style:none;padding-left: 0;">
                                         <li>
-                                            <a href="aerospace-defence.html"> Aerospace & Defense</a>
+                                            <a href="">Our Partners</a>
                                         </li>
                                         <li>
-                                            <a href="automotive.html"> Automotive</a>
+                                            <a href="">Our Locations</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Careers</a>
                                         </li>
                                     </ul>
                                 </div>
-                                <div>
-                                    <ul style="list-style:none;padding-left: 0;">
+                            </div>
+                            <div class="footer-nav-iterm">
+                                <h5 class="footer-sub-heading">Products</h5>
+                                <div class="footer">
+                                    <ul class="footer-inner-links">
+                                        <li>
+                                            <a href="SAP-ariba.html">SAP Ariba</a>
+                                        </li>
+                                        <li>
+                                            <a href="">SAP Fieldglass</a>
+                                        </li>
+                                        <li>
+                                            <a href="">SAP Concur</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Microsoft Power BI</a>
+                                        </li>
+                                        <li>
+                                            <a href="">SAP SuccessFactors</a>
+                                        </li>
+                                        <li>
+                                            <a href="">LiveHire</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer-nav-iterm">
+                                <h5 class="footer-sub-heading">Finance & Accounting</h5>
+                                <div class="footer">
+                                    <ul class="footer-inner-links">
+                                        <li>
+                                            <a href="">Hamilton IFRS Compliance</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Hamilton IFRS 15 Compliance</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Hamilton ASC 842/ IFRS16 Compliance</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Pricefx</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="footer-nav-iterm">
+                                <h5 class="footer-sub-heading">Solutions</h5>
+                                <div class="footer">
+                                    <ul class="footer-inner-links">
+                                        <li>
+                                            <a href="">SAP Surround on Azure</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Gallop Pilot</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Gallop Deployment</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Virtual Digital Assistants</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer-nav-iterm">
+                                <h5 class="footer-sub-heading">IE Packaged Solutions</h5>
+                                <div class="footer">
+                                    <ul class="footer-inner-links">
+                                        <li>
+                                            <a href="">Gallop Project Lifecycle Management</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Gallop Price Intelligence, Rebates & Channel Management</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Gallop Talent Intelligence</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Gallop Digital Supplier Network</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Gallop Life Sciences</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Gallop Defence Contract Lifecycle Management</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Gallop CPQ Dealer Automative Promotions</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="footer-nav-iterm">
+                                <h5 class="footer-sub-heading">Services</h5>
+                                <div class="footer">
+                                    <ul class="footer-inner-links">
+                                        <li>
+                                            <a href="statergic-advisory.html">Strategic Advisory</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Aupport Services</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer-nav-iterm">
+                                <h5 class="footer-sub-heading">Supply Chain</h5>
+                                <div class="footer">
+                                    <ul class="footer-inner-links">
+                                        <li>
+                                            <a href="">WM/ EWM</a>
+                                        </li>
+                                        <li>
+                                            <a href="">IBP</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer-nav-iterm">
+                                <h5 class="footer-sub-heading">Resources</h5>
+                                <div class="footer">
+                                    <ul class="footer-inner-links">
+                                        <li>
+                                            <a href="">On Demadn Content, Videos Articles, Blogs, White Papers</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Brochures</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Success Stories/ Testimonials/Case Studies</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="footer-nav-iterm">
+                                <h5 class="footer-sub-heading">Industries</h5>
+                                <div class="footer">
+                                    <ul class="footer-inner-links">
+                                        <li>
+                                            <a href="aerospace-defence.html">Aerospace & Defence</a>
+                                        </li>
+                                        <li>
+                                            <a href="automotive.html">Automotive</a>
+                                        </li>
                                         <li>
                                             <a href="cpg.html">CPG</a>
                                         </li>
                                         <li>
-                                            <a href="e-commerce.html"> E-Commerce</a>
+                                            <a href="e-commerce.html">E-Commerce</a>
                                         </li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul style="list-style:none;padding-left: 0;">
                                         <li>
                                             <a href="life-sciences.html">Life Sciences</a>
                                         </li>
                                         <li>
-                                            <a href="manufacturing.html"> Manufacturing</a>
+                                            <a href="manufacturing.html">Manufacturing</a>
                                         </li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul style="list-style:none;padding-left: 0;">
                                         <li>
-                                            <a href="oil-gas.html"> Oil & Gas</a>
+                                            <a href="oil-gas.html">Oil & Gas</a>
                                         </li>
                                         <li>
                                             <a href="professional-services.html">Professional Services</a>
                                         </li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul style="list-style:none;padding-left: 0;">
                                         <li>
-                                            <a href="retail.html"> Retail</a>
+                                            <a href="retail.html">Retail</a>
                                         </li>
                                         <li>
                                             <a href="telecom.html">Telecom</a>
                                         </li>
                                     </ul>
                                 </div>
-                            </div>                                
-                        </div>
-                    </li>
-                </ul>
-            </div>          
-        </div>
-        <!-- main menu -->
-        <div class="header">       
-            <div class="container">     
-                <div class="row fixed top-0 z-1">     
-                    <div class="col-md-12 bg-white" >  
-                        <div class="row">
-                            <div class="col-md-12 d-none d-sm-none d-md-block">
-                                <ul class="nav-items d-flex">
-                                    <li class="pt-2">
-                                        <a href="index.html"><img src="./assets/logo.png" alt="logo" /></a>
-                                    </li>
-                                    <li class=" navbar-item">
-                                        <div class="nav-aboutus">
-                                            <a href="">About Us</a>
-                                            <div class="aboutus-nav-items" >
-                                                <ul style="list-style:none;">
-                                                    <li>
-                                                        <a href="team-company-history.html">Our Company, Team & History</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>                                        
-                                    </li>
-                                    <li class="navbar-item">
-                                        <div class="nav-product">
-                                            <a href="">Products</a>
-                                            <div class="product-nav-items py-4 px-4">
-                                                <div class="d-flex pt-2">
-                                                    <div >
-                                                        <h5>Spend Management</h5>
-                                                        <ul>                               
-                                                            <li>
-                                                                <a href="SAP-ariba.html">SAP Ariba</a>
-                                                            </li>
-                                                        </ul> 
-                                                    </div>
-                                                </div>                                            
-                                            </div>
-                                        </div>    
-                                    </li>
-                                    <li class="navbar-item">
-                                        <div class="nav-services">
-                                            <a href="">Services</a>
-                                            <div class="services-nav-items">
-                                                <ul style="list-style:none;">
-                                                    <li>
-                                                        <a href="statergic-advisory.html"> Strategic Advisory</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="support-services.html"> Support Services</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="professional-services.html"> professional Services</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>    
-                                    </li>
-                                    <li class="navbar-item ">
-                                        <div class="nav-industries">
-                                            <a href="">Industries</a>
-                                            <div class="industries-nav-items py-4 px-4">
-                                                <div class="d-flex justify-content-around">
-                                                    <div>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="aerospace-defence.html"> Aerospace & Defense</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="automotive.html"> Automotive</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="cpg.html">CPG</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="e-commerce.html"> E-Commerce</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="life-sciences.html">Life Sciences</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="manufacturing.html"> Manufacturing</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="oil-gas.html"> Oil & Gas</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="professional-services.html">Professional Services</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="retail.html"> Retail</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="telecom.html">Telecom</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                
-                                            </div>
-                                        </div>    
-                                    </li>
-                                </ul> 
                             </div>
-                        </div>                   
+                            <div class="footer-nav-iterm">
+                                <h5 class="footer-sub-heading">Regional Landing Page</h5>
+                                <div class="footer">
+                                    <ul class="footer-inner-links">
+                                        <li>
+                                            <a href="">Europe</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer-nav-iterm">
+                                <h5 class="footer-sub-heading">Legal</h5>
+                                <div class="footer">
+                                    <ul class="footer-inner-links">
+                                        <li>
+                                            <a href="">Our Legals</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>     
-            </div>
-            <div class="progress-container">
-                <div class="progress-bar" id="progressBar"></div>
-            </div>
-        </div>
-        <!-- banner -->
-        <div class="statergic_bg py-5 px-5">
-            <div class="d-flex">
-                <div class="col-md-9">
-                    <h1 class="text-white fw-bold">
-                        SAP STRATEGIC ADVISORY <br>
-                        SERVICE WITH COGNITUS 
-                    </h1>
-                    <h4 class="text-white">
-                        LET US ZERO-IN ON
-                        YOUR BUSINESS NEEDS
-                    </h4>
                 </div>
-                <div class="col-md-3 text-right">
-                    <h6> 
-                        Discover the optimum path for your business to maximize your investments in SAP solutions; increase business efficiency and seamlessly weave technology and business together.
-                    </h6>
-                </div>
-            </div>            
-        </div>
-        <div class="container my-4 px-5">
-            <p>
-                Cognitus is a long-term strategic partner for SAP and has been working with SAP to support enterprise adoption of SAP products since 2002. Cognitus' SAP strategic advisory service is driven by thought leaders and consultants with a minimum of 15+ years of SAP experience. Our aim is to help businesses to optimize their investments in SAP solutions leveraging their experience in technology and business for a holistic solution that is sustainable and scalable. Immerse yourselves in round table style conversations with our experts to discover the roadmap to a successful future. 
-            </p>
-            <a href="" class="more-info"> + More Information</a>
-        </div>
-        <div>
-            <div class="row-five">
-                <h2 class="text-center fw-bold py-4">FOUR PILLARS OF ADVICE STRATEGY</h2>
             </div>
         </div>
-        <div class="container my-5">
+    </div>
+    <!-- follow us -->
+    <div class="follow-us-row">
+        <div class="container py-4">
             <div class="row">
                 <div class="col-md-12">
                     <div class="row">
-                        <div class="col-md-3 icon1_data">
-                            <div class="py-5">
-                                <p>Leverage real-time data processing that combines transactions and analytics</p>
-                                <h4 class="py-2">PROCESS</h4>
-                            </div>
-                            <div class="py-5">
-                                <h4 class="py-2">USER EXPERIENCE</h4>
-                                <p>Should be intuitive and easy to understand</p>
-                            </div>
+                        <div class="col-md-2">
+                            <h2 class="text-white fw-bold">Follow Us</h2>
                         </div>
-                        <div class="col-md-6">
-                            <img src="./assets/icon1.svg" alt="">
+                        <div class="col-md-2 d-flex footer-social-icons">
+                            <a href="https://www.facebook.com/">
+                                <img src="./assets/facebook.png" alt="">
+                            </a>
+                            <a href="https://linkedin.com/">
+                                <img src="./assets/linkedin.png" alt="">
+                            </a>
+                            <a href="https://twitter.com/">
+                                <img src="./assets/twitter.png" alt="">
+                            </a>
                         </div>
-                        <div class="col-md-3 icon1_data">
-                            <div class="py-5">
-                                <p>Automate repetitive processes, free up resources for meaningful engagements</p>
-                                <h4 class="py-2">EFFICIENCY</h4>
-                            </div>
-                            <div class="py-5">
-                                <h4 class="py-2">SCALE</h4>
-                                <p>Allow growth for future need</p>
-                            </div>
+                        <div class="col-md-5 d-flex follow-us-TC py-3">
+                            <a href="">Terms & Conditions</a>
+                            <a href="">Privacy Policy</a>
+                            <a href="">Cookie Policy</a>
+                            <a href="">Disclaimer</a>
+                            <a href="">Anti-slavery Document</a>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="row-five">
-                <h2 class="text-center fw-bold py-4">OUR CORE COMPETENCY AREAS ARE</h2>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row my-5">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-3 box-style py-4 py-4">
-                            <ul>
-                                <li>
-                                    <b>AGILE /SAFE</b>
-                                </li>
-                                <li>Release on Demand</li>
-                                <li>Lean Mgmt.</li>
-                                <li>Team Agility</li>
-                                <li>Agile Coaching</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 box-style py-4">
-                            <ul>
-                                <li>
-                                    <b>PMO</b>
-                                </li>
-                                <li>Manage</li>
-                                <li>Track</li>
-                                <li>Complete</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 box-style py-4">
-                            <ul>
-                                <li>
-                                    <b>REQUIREMENTS</b>
-                                </li>
-                                <li>Fit to Standard</li>
-                                <li>Gap Identification</li>
-                                <li>Refine</li>
-                                <li>Review</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 box-style py-4">
-                            <ul>
-                                <li>
-                                    <b>ARCHITECTURE</b>
-                                </li>
-                                <li>Solution</li>
-                                <li>Technical</li>
-                                <li>M&A</li>
-                                <li>Integration</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3 box-style py-4">
-                            <ul>
-                                <li>
-                                    <b>DESIGN</b>
-                                </li>
-                                <li>Create</li>
-                                <li>Augment</li>
-                                <li>Audit</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 box-style py-4">
-                            <ul>
-                                <li>
-                                    <b>BUILD</b>
-                                </li>
-                                <li>Best practice</li>
-                                <li>Review</li>
-                                <li>Complete</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 box-style py-4">
-                            <ul>
-                                <li>
-                                    <b>INTEGRATION</b>
-                                </li>
-                                <li>Custom Code</li>
-                                <li>API</li>
-                                <li>3rd Party</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 box-style py-4">
-                            <ul>
-                                <li>
-                                    <b>DATA CONVERSION</b>
-                                </li>
-                                <li>Strategy</li>
-                                <li>Data Cleansing</li>
-                                <li>Data Enrichment</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3 box-style py-4">
-                            <ul>
-                                <li>
-                                    <b>TEST MANAGEMENT</b>
-                                </li>
-                                <li>Integration</li>
-                                <li>System</li>
-                                <li>User</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 box-style py-4">
-                            <ul>
-                                <li>
-                                    <b>TRAINING & KT</b>
-                                </li>
-                                <li>KT Doc</li>
-                                <li>Train Org</li>
-                                <li>Support</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 box-style py-4">
-                            <ul>
-                                <li>
-                                    <b>POST-GO-LIVE</b>
-                                </li>
-                                <li>Optimization</li>
-                                <li>Innovations</li>
-                                <li>Continuous</li>
-                                <li>improvements</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 box-style py-4">
-                            <ul>
-                                <li>
-                                    <b>SUPPORT</b>
-                                </li>
-                                <li>AMS</li>
-                                <li>CoE</li>
-                            </ul>
+                        <div class="col-md-3 d-flex">
+                            <img src="./assets/footer-02.png" alt="" style="height:40px; padding-right: 4px;">
+                            <img src="./assets/footer-03.png" alt="" style="height:40px;">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div>
-            <div class="row-five">
-                <h2 class="text-center fw-bold py-4">COGNITUS DIFFERENTIATOR</h2>
-            </div>
-        </div>
-        <div class="container my-4">
-            <p class="p-5">
-                Cognitus leaders are SAP veterans with deep expertise that blends technological innovation and business acumen. Cognitus is capable of supporting global companies with complex systems and sophisticated business processes. Our customers business ranges from 200 million USD to 5 billion USD in annual revenue. At the same time, we are not as big as some of our competitors; this allows us to react quicker to changing requirements, develop personal connections and maintain focus on our core competencies. We have become trusted partners of our customers in their journeys of growth and transformation.
-            </p>
-            <h1 class="text-center py-2 fw-bold">EXPERIENCE SAP S/4HANA IN MOTION</h1>
-            <h2 class="text-center py-2">Find out what SAP S/4HANA can do for you today</h2>
-            <h2 class="text-center py-2">Strategize the path to Digital Transformation</h2>
-            <h2 class="text-center py-2">Get a view of YOUR Intelligent Enterpise</h2>
-        </div>
-        <div>
-            <div class="row-five">
-                <h2 class="text-center fw-bold py-4">HOW ARE WE THE BEST CHOICE FOR THE CUSTOMER</h2>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row mt-5 text-center">
-                <h4 class="fw-bold py-3">Our Approach</h4>
-                <h3>Cognitus Team Will Collaborate With Yours To:</h3>
-                <svg class="arrow">
-                    <path class="a1" d = "M0 0 L30 32 L60 0"></path>
-                    <path class="a2" d = "M0 20 L30 52 L60 20"></path>
-                    <path class="a3" d = "M0 40 L30 72 L60 40"></path>
-                </svg>
-            </div>
-            <div class="row text-center">
-                <h3>Understand Current Processes <br>
-                    Uncover The Pain Points <br>
-                    Comprehend The Motivators Of Change<br>
-                    Know Budget And Time Constraints<br>
-                    Share The Vision For The Outcome
-                </h3>
-                <svg class="arrow">
-                    <path class="a1" d = "M0 0 L30 32 L60 0"></path>
-                    <path class="a2" d = "M0 20 L30 52 L60 20"></path>
-                    <path class="a3" d = "M0 40 L30 72 L60 40"></path>
-                </svg>
-            </div>
-            <div class="row  text-center">
-                <h3>
-                    Uncover The Business Impact Of Changes <br>
-                    Evaluate Processes Against Industry Benchmarks<br>
-                    Strategize Risk Mitigation<br>
-                    Evaluate Integrations With Non-SAP Systems<br>
-                    Understand Security Requirements<br>
-                </h3>
-                <svg class="arrow">
-                    <path class="a1" d = "M0 0 L30 32 L60 0"></path>
-                    <path class="a2" d = "M0 20 L30 52 L60 20"></path>
-                    <path class="a3" d = "M0 40 L30 72 L60 40"></path>
-                </svg>
-            </div>
-            <div class="row text-center">
-                <h3>
-                    Prepare The Road Map To A Digital <br>
-                    ERP That Can Scale With Emerging <br>
-                    Technologies And Business Growth
-                </h3>
-                <svg class="arrow">
-                    <path class="a1" d = "M0 0 L30 32 L60 0"></path>
-                    <path class="a2" d = "M0 20 L30 52 L60 20"></path>
-                    <path class="a3" d = "M0 40 L30 72 L60 40"></path>
-                </svg>
-            </div>
-            <div class="row text-center">
-                    <a href="" class="fw-bold" style="text-decoration:none">
-                        <h3 style="color: #ba0711;">SCHEDULE A MEETING TODAY</h3>
-                    </a>
-            </div>
-            
-        </div>
-        <div class="container mt-5">
-            <h1 class="py-2">OUR CUSTOMERS</h1>
-            <h3 style="color: #ba0711;" class="py-2">PROVEN TRACK RECORD BY INDUSTRY</h3>
-            <img src="./assets/icon-statergy.svg" alt="">
-        </div>
-        
-        <!-- contact us section -->
-        <div class="contactus-section d-flex flex-column justify-content-center">
-            <div class=" ">
-                <p class = "contact-para">WE’RE READY <br>
-                    WHEN YOU ARE.</p>
-                <div class="contact-btn" >                         
-                    <a href="#" class="tenth-row-contact" style="text-decoration:none">
-                        <img src="./assets/galoop-btn-logo.png" alt="" style="width:15px;height:15px;">&nbsp
-                        CONTACT US
-                    </a>                   
-                </div>     
-            </div>               
-        </div>
-        <!-- footer -->
-        <div class="footer-content">
-            <div class="container py-5">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 class="footer-main-heading">Our Services & Portfolio</h1>
-                        <div class="row">
-                            <div class="col-md-3 col-sm-6">
-                                <div class="footer-nav-item">
-                                   <h5 class="footer-sub-heading">About Us</h5>
-                                    <div class="footer-about-us">
-                                        <ul class="footer-inner-links">
-                                            <li>
-                                                <a href="team-company-history.html">Our Company, Team & History</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Our Partners</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Our Locations</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Careers</a>
-                                            </li>
-                                        </ul>
-                                    </div> 
-                                </div>
-                                <div class="footer-nav-iterm">
-                                    <h5 class="footer-sub-heading">Products</h5>
-                                    <div class="footer">
-                                        <ul class="footer-inner-links">
-                                            <li>
-                                                <a href="SAP-ariba.html">SAP Ariba</a>
-                                            </li>
-                                            <li>
-                                                <a href="">SAP Fieldglass</a>
-                                            </li>
-                                            <li>
-                                                <a href="">SAP Concur</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Microsoft Power BI</a>
-                                            </li>
-                                            <li>
-                                                <a href="">SAP SuccessFactors</a>
-                                            </li>
-                                            <li>
-                                                <a href="">LiveHire</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="footer-nav-iterm">
-                                    <h5 class="footer-sub-heading">Finance & Accounting</h5>
-                                    <div class="footer">
-                                        <ul class="footer-inner-links">
-                                            <li>
-                                                <a href="">Hamilton IFRS Compliance</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Hamilton IFRS 15 Compliance</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Hamilton ASC 842/ IFRS16 Compliance</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Pricefx</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>                                
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="footer-nav-iterm">
-                                    <h5 class="footer-sub-heading">Solutions</h5>
-                                    <div class="footer">
-                                        <ul class="footer-inner-links">
-                                            <li>
-                                                <a href="">SAP Surround on Azure</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Gallop Pilot</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Gallop Deployment</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Virtual Digital Assistants</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="footer-nav-iterm">
-                                    <h5 class="footer-sub-heading">IE Packaged Solutions</h5>
-                                    <div class="footer">
-                                        <ul class="footer-inner-links">
-                                            <li>
-                                                <a href="">Gallop Project Lifecycle Management</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Gallop Price Intelligence, Rebates & Channel Management</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Gallop Talent Intelligence</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Gallop Digital Supplier Network</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Gallop Life Sciences</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Gallop Defence Contract Lifecycle Management</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Gallop CPQ Dealer Automative Promotions</a>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="footer-nav-iterm">
-                                    <h5 class="footer-sub-heading">Services</h5>
-                                    <div class="footer">
-                                        <ul class="footer-inner-links">
-                                            <li>
-                                                <a href="statergic-advisory.html">Strategic Advisory</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Aupport Services</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="footer-nav-iterm">
-                                    <h5 class="footer-sub-heading">Supply Chain</h5>
-                                    <div class="footer">
-                                        <ul class="footer-inner-links">
-                                            <li>
-                                                <a href="">WM/ EWM</a>
-                                            </li>
-                                            <li>
-                                                <a href="">IBP</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="footer-nav-iterm">
-                                    <h5 class="footer-sub-heading">Resources</h5>
-                                    <div class="footer">
-                                        <ul class="footer-inner-links">
-                                            <li>
-                                                <a href="">On Demadn Content, Videos Articles, Blogs, White Papers</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Brochures</a>
-                                            </li>
-                                            <li>
-                                                <a href="">Success Stories/ Testimonials/Case Studies</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="footer-nav-iterm">
-                                    <h5 class="footer-sub-heading">Industries</h5>
-                                    <div class="footer">
-                                        <ul class="footer-inner-links">
-                                            <li>
-                                                <a href="aerospace-defence.html">Aerospace & Defence</a>
-                                            </li>
-                                            <li>
-                                                <a href="automotive.html">Automotive</a>
-                                            </li>
-                                            <li>
-                                                <a href="cpg.html">CPG</a>
-                                            </li>
-                                            <li>
-                                                <a href="e-commerce.html">E-Commerce</a>
-                                            </li>
-                                            <li>
-                                                <a href="life-sciences.html">Life Sciences</a>
-                                            </li>
-                                            <li>
-                                                <a href="manufacturing.html">Manufacturing</a>
-                                            </li>
-                                            <li>
-                                                <a href="oil-gas.html">Oil & Gas</a>
-                                            </li>
-                                            <li>
-                                                <a href="professional-services.html">Professional Services</a>
-                                            </li>
-                                            <li>
-                                                <a href="retail.html">Retail</a>
-                                            </li>
-                                            <li>
-                                                <a href="telecom.html">Telecom</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="footer-nav-iterm">
-                                    <h5 class="footer-sub-heading">Regional Landing Page</h5>
-                                    <div class="footer">
-                                        <ul class="footer-inner-links">
-                                            <li>
-                                                <a href="">Europe</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="footer-nav-iterm">
-                                    <h5 class="footer-sub-heading">Legal</h5>
-                                    <div class="footer">
-                                        <ul class="footer-inner-links">
-                                            <li>
-                                                <a href="">Our Legals</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- follow us -->
-        <div class="follow-us-row">
-            <div class="container py-4">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="col-md-2">
-                                <h2 class = "text-white fw-bold">Follow Us</h2>
-                            </div>
-                            <div class="col-md-2 d-flex footer-social-icons">
-                                <a href="https://www.facebook.com/">
-                                    <img src="./assets/facebook.png" alt="">
-                                </a>
-                                <a href="https://linkedin.com/">
-                                    <img src="./assets/linkedin.png" alt="">
-                                </a>
-                                <a href="https://twitter.com/">
-                                    <img src="./assets/twitter.png" alt="">
-                                </a>
-                            </div>
-                            <div class="col-md-5 d-flex follow-us-TC py-3">
-                                <a href="">Terms & Conditions</a>
-                                <a href="">Privacy Policy</a>
-                                <a href="">Cookie Policy</a>
-                                <a href="">Disclaimer</a>
-                                <a href="">Anti-slavery Document</a>
-                            </div>
-                            <div class="col-md-3 d-flex">
-                                <img src="./assets/footer-02.png" alt="" style = "height:40px; padding-right: 4px;">
-                                <img src="./assets/footer-03.png" alt="" style = "height:40px;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copy-rights py-2">
-            <p class ="pt-2"> &copy; 2021 Cognitus. All Rights Reserved</p>
-        </div>        
-    </body>  
-    <!-- Optional JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha512-YK1Mz9UiZmhbFzXgMbl3bO49wZ78Xj3h8TtTBLFHEAEjUBxsEZdXd8Il5RWbhPOyB653bGQDNVGGny2mORZq4A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="https://kit.fontawesome.com/8de56a1913.js" crossorigin="anonymous"></script>
-    <script>
+    </div>
+    <div class="copy-rights py-2">
+        <p class="pt-2"> &copy; 2021 Cognitus. All Rights Reserved</p>
+    </div>
+</body>
+<!-- Optional JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha512-YK1Mz9UiZmhbFzXgMbl3bO49wZ78Xj3h8TtTBLFHEAEjUBxsEZdXd8Il5RWbhPOyB653bGQDNVGGny2mORZq4A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://kit.fontawesome.com/8de56a1913.js" crossorigin="anonymous"></script>
+<script>
     AOS.init({
         duration: 1000,
         once: true,
-        
+
     });
-    </script>
-    <script src = "./assets/script.js"></script>    
+</script>
+<script src="./assets/script.js"></script>
+
 </html>

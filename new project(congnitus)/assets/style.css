@@ -740,3 +740,7 @@ svg {
     background-image: url('bg_oil_gas.jpg');
     background-repeat: no-repeat;
 }
+.retail-banner{
+    background-image: url('bg_retail.png');
+    background-repeat: no-repeat;
+}

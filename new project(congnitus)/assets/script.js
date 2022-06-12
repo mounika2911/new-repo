@@ -1,18 +1,3 @@
-const fname = document.getElementById('fname').value;
-const lname = document.getElementById('lname').value;
-function sendContactDate(){
-    Email.send({
-        Host : "smtp.gmail.com",
-        Username : "mounikayen1@gmail.com",
-        Password : "Mouni@123",
-        To : 'mounikagnd@gmail.com',
-        From : document.getElementById("email").value,
-        Subject : "This is the subject",
-        Body : "And this is the body"
-    }).then(
-      message => alert(message)
-    );
-}
 // input-error
 const inputErrors = document.querySelectorAll('.input-error')
 
@@ -48,6 +33,40 @@ const noText = () => {
 
 numberError.addEventListener('blur', noText());
 
+// input email error
+const email = document.getElementById('email');
+const errorEmail = () => {
+    "use strict";
+    return function () {
+        const regEmail = /^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/;
+        if(regEmail.test(this.value) == false && !(this.nextSibling.nodeType == 1)){
+            this.insertAdjacentHTML("afterend", '<p id = "error-text">Email must be formatted correctly.</p>'); 
+        }else if(regEmail.test(this.value) == true && this.nextSibling.nodeType == 1){
+            document.getElementById("error-text").remove();
+        }
+    }
+}
+
+email.addEventListener('blur', errorEmail());
+
+// smtp mail
+const form = document.querySelector('.contact_form"');
+const fname = document.getElementById('fname');
+const lname = document.getElementById('lname');
+const msg = document .getElementById("message");
+function sendEmail(e){
+    e.preventDefault();
+    Email.send({
+        SecureToken : "2fbe253c-7e09-4e9c-bf1a-99473f52351b",
+        To : 'mounikagnd@gmail.com',
+        From : email.value,
+        Subject : "Contact From",
+        Body :  msg.value
+    }).then(
+    message => alert(message)
+    );
+}
+form.addEventListener('submit', sendEmail)
 
 
 // pages js

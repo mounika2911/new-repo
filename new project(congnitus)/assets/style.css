@@ -931,3 +931,11 @@ svg {
 #error-text{
     color: #ba0711;
 }
+.submit-btn{
+    color: white;
+    border-radius: 10px;
+    background-color: #ba0711;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 10px;
+}

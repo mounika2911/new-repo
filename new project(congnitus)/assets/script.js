@@ -1,3 +1,18 @@
+const fname = document.getElementById('fname').value;
+const lname = document.getElementById('lname').value;
+function sendContactDate(){
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : "mounikayen1@gmail.com",
+        Password : "Mouni@123",
+        To : 'mounikagnd@gmail.com',
+        From : document.getElementById("email").value,
+        Subject : "This is the subject",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
+}
 // input-error
 const inputErrors = document.querySelectorAll('.input-error')
 
@@ -16,6 +31,26 @@ inputErrors.forEach(inputError => {
     inputError.addEventListener("blur", requiredEmptyField());
 })
 
+// input number error
+const numberError = document.getElementById('number');
+
+const noText = () => {
+    "use strict";
+    return function () {
+        const regNumber = /^[0-9]+$/;
+        if(regNumber.test(this.value) == false && !(this.nextSibling.nodeType == 1)){
+            this.insertAdjacentHTML("afterend", '<p id = "error-text">Must contain only numbers, +()-. and x.</p>'); 
+        }else if(regNumber.test(this.value) == true && this.nextSibling.nodeType == 1){
+            document.getElementById("error-text").remove();
+        }
+    }
+}
+
+numberError.addEventListener('blur', noText());
+
+
+
+// pages js
 function progressBarScroll() {
     let winScroll = document.body.scrollTop || document.documentElement.scrollTop,
         height = document.documentElement.scrollHeight - document.documentElement.clientHeight,

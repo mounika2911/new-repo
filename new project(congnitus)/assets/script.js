@@ -57,7 +57,7 @@ const msg = document .getElementById("message");
 function sendEmail(e){
     e.preventDefault();
     Email.send({
-        SecureToken : "2fbe253c-7e09-4e9c-bf1a-99473f52351b",
+        SecureToken : "241ff0c9-e5b2-4374-b467-23f69a883a33",
         To : 'mounikagnd@gmail.com',
         From : email.value,
         Subject : "Contact From",
